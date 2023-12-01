@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/brian/FEE1-7024/Bongo/90S%202000S%20RNB%20PARTY%20MIX%202023%20Ne-Yo%20the%20return%20-%20NeYo-%20Rihanna%20-%20Beyonc%C3%A9-%20Mariah%20Carey%20and%20more.mp3" added="2023-11-30T04:28:43Z" modified="2023-11-30T04:28:43Z" visited="2023-11-30T04:28:43Z">
+    <title>90S 2000S RNB PARTY MIX 2023 Ne-Yo the return - NeYo- Rihanna - Beyoncé- Mariah Carey and more.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2023-11-30T04:28:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/brian/FEE1-7024/gospell/ALICE%20SHIKU%20-%20NDATHIMIRA%20SAMWELI%20-OFFICIAL%20MUSIC%20VIDEO-%20SKIZA%20SMS%205702627%20TO%20811.mp3" added="2023-11-30T04:29:08Z" modified="2023-11-30T04:29:08Z" visited="2023-11-30T04:29:08Z">
+    <title>ALICE SHIKU - NDATHIMIRA SAMWELI -OFFICIAL MUSIC VIDEO- SKIZA SMS 5702627 TO 811.mp3</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2023-11-30T04:29:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Downloads/code_1.84.2-1699528352_amd64.deb" added="2023-11-30T05:29:58Z" modified="2023-11-30T05:29:58Z" visited="2023-11-30T05:29:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-11-30T05:29:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Desktop/website/hello.txt" added="2023-11-30T06:41:05Z" modified="2023-11-30T06:50:19Z" visited="2023-11-30T06:41:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-11-30T06:50:19Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Desktop/site/helloworld" added="2023-11-30T07:23:10Z" modified="2023-11-30T07:23:17Z" visited="2023-11-30T07:23:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-11-30T07:23:17Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Desktop/site/hello.txt" added="2023-11-30T07:24:53Z" modified="2023-11-30T07:25:02Z" visited="2023-11-30T07:24:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-11-30T07:25:02Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Desktop" added="2023-11-30T08:40:19Z" modified="2023-11-30T08:40:19Z" visited="2023-11-30T08:40:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2023-11-30T08:40:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

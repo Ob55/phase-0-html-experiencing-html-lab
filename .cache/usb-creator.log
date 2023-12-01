@@ -1,0 +1,11 @@
+usb-creator 2023-11-30 07:24:23,433 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2023-11-30 07:24:23,647 (DEBUG) backend.py:66: detect_devices
+usb-creator 2023-11-30 07:24:26,164 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,164 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,173 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,173 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,174 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,174 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,175 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:26,175 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/loop8
+usb-creator 2023-11-30 07:24:30,237 (DEBUG) backend.py:181: cancel_install

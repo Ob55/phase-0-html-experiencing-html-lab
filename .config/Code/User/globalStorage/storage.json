@@ -2,7 +2,10 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/brian/Desktop": "__default__profile__"
+            "file:///home/brian/Desktop": "__default__profile__",
+            "file:///home/brian/Document": "__default__profile__",
+            "file:///home/brian/Documents/html": "__default__profile__",
+            "file:///home/brian": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -14,13 +17,12 @@
         "folders": [
             {
                 "folderUri": "file:///home/brian/Desktop"
+            },
+            {
+                "folderUri": "file:///home/brian"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1701322587575"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -60,10 +62,44 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian",
+                                        "path": "/home/brian",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/brian"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian/Documents/html",
+                                        "path": "/home/brian/Documents/html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/html"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian/Document",
+                                        "path": "/home/brian/Document",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Document"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -75,6 +111,31 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Desktop"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian/Documents/index.html",
+                                        "path": "/home/brian/Documents/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian/html/my_list.txt",
+                                        "path": "/home/brian/html/my_list.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/html/my_list.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -121,7 +182,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -255,8 +317,9 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Backup and Sync Settings..."
+                                    "id": "workbench.userDataSync.actions.manage",
+                                    "label": "Settings Sync is On",
+                                    "checked": true
                                 }
                             ]
                         }
@@ -484,7 +547,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -750,7 +814,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -759,7 +824,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -978,7 +1044,8 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations"
+                        "label": "Open &&Configurations",
+                        "enabled": false
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1074,8 +1141,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1667,20 +1733,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/brian/Desktop",
-            "backupPath": "/home/brian/.config/Code/Backups/4b5acf7472b21831c7c3a3e726693c2a",
+            "folder": "file:///home/brian",
+            "backupPath": "/home/brian/.config/Code/Backups/fadcc64b8fdf0cc840b87bd8623e1e4e",
             "uiState": {
-                "mode": 1,
-                "x": 67,
-                "y": 176,
-                "width": 1024,
+                "mode": 0,
+                "x": 252,
+                "y": 78,
+                "width": 683,
                 "height": 525
             }
         },

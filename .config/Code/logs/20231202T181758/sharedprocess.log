@@ -1,0 +1,15 @@
+2023-12-02 18:18:06.807 [info] Getting Manifest... ms-vscode.js-debug-nightly
+2023-12-02 18:18:07.133 [info] Installing extension: ms-vscode.js-debug-nightly
+2023-12-02 18:18:10.585 [info] Extension signature is verified: ms-vscode.js-debug-nightly
+2023-12-02 18:18:10.726 [info] Extracted extension to file:///home/brian/.vscode/extensions/ms-vscode.js-debug-nightly-2023.12.117: ms-vscode.js-debug-nightly
+2023-12-02 18:18:10.738 [info] Renamed to /home/brian/.vscode/extensions/ms-vscode.js-debug-nightly-2023.12.117
+2023-12-02 18:18:10.759 [info] Extracting extension completed. ms-vscode.js-debug-nightly
+2023-12-02 18:18:10.788 [info] Extension installed successfully: ms-vscode.js-debug-nightly
+2023-12-02 18:18:10.816 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/brian/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/brian/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-12-02 18:18:10.831 [info] Marked extension as uninstalled ms-vscode.js-debug-nightly-2023.11.2817

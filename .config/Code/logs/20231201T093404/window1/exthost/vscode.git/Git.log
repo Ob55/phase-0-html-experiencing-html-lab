@@ -1,0 +1,29 @@
+2023-12-01 09:34:09.326 [info] Log level: Info
+2023-12-01 09:34:09.326 [info] Validating found git in: "git"
+2023-12-01 09:34:09.326 [info] Using git "2.17.1" from "git"
+2023-12-01 09:34:09.338 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-01 09:34:09.360 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-12-01 09:34:09.404 [info] Open repository: /home/brian
+2023-12-01 09:34:09.479 [info] > git config --get commit.template [27ms]
+2023-12-01 09:34:09.533 [info] No remotes found in the git config file.
+2023-12-01 09:34:09.536 [info] > git rev-parse --show-toplevel [59ms]
+2023-12-01 09:34:09.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [44ms]
+2023-12-01 09:34:09.596 [info] > git rev-parse --show-toplevel [23ms]
+2023-12-01 09:34:09.675 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-01 09:34:09.708 [info] > git rev-parse --show-toplevel [10ms]
+2023-12-01 09:34:09.757 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-01 09:34:09.789 [info] > git rev-parse --show-toplevel [6ms]
+2023-12-01 09:34:09.829 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-01 09:34:09.931 [info] > git rev-parse --show-toplevel [41ms]
+2023-12-01 09:34:09.972 [info] > git rev-parse --show-toplevel [24ms]
+2023-12-01 09:34:10.002 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-01 09:34:10.024 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-01 09:34:10.082 [info] > git rev-parse --show-toplevel [37ms]
+2023-12-01 09:34:10.102 [info] > git rev-parse --show-toplevel [6ms]
+2023-12-01 09:34:10.132 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-01 09:34:10.172 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-01 09:34:10.219 [info] > git rev-parse --show-toplevel [14ms]
+2023-12-01 09:34:10.248 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-01 09:34:10.356 [info] > git rev-parse --show-toplevel [95ms]
+2023-12-01 09:34:10.413 [info] > git rev-parse --show-toplevel [20ms]
+2023-12-01 09:34:10.571 [info] > git status -z -uall [977ms] (cancelled)

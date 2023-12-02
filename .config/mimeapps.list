@@ -1,0 +1,36 @@
+[Default Applications]
+x-scheme-handler/http=google-chrome.desktop
+application/pdf=brave-browser.desktop
+application/rdf+xml=brave-browser.desktop
+application/rss+xml=brave-browser.desktop
+application/xhtml+xml=brave-browser.desktop
+application/xhtml_xml=brave-browser.desktop
+application/xml=brave-browser.desktop
+image/gif=brave-browser.desktop
+image/jpeg=brave-browser.desktop
+image/png=brave-browser.desktop
+image/webp=brave-browser.desktop
+text/html=google-chrome.desktop
+text/xml=brave-browser.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/ipfs=brave-browser.desktop
+x-scheme-handler/ipns=brave-browser.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+
+[Added Associations]
+application/pdf=brave-browser.desktop;
+application/rdf+xml=brave-browser.desktop;
+application/rss+xml=brave-browser.desktop;
+application/xhtml+xml=brave-browser.desktop;
+application/xhtml_xml=brave-browser.desktop;
+application/xml=brave-browser.desktop;
+image/gif=brave-browser.desktop;
+image/jpeg=brave-browser.desktop;
+image/png=brave-browser.desktop;
+image/webp=brave-browser.desktop;
+text/html=brave-browser.desktop;
+text/xml=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
+x-scheme-handler/ipfs=brave-browser.desktop;
+x-scheme-handler/ipns=brave-browser.desktop;

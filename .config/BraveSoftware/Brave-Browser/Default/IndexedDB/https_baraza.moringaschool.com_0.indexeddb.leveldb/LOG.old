@@ -1,2 +1,3 @@
-2023/11/30-08:59:17.840 2f5e Creating DB /home/brian/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_baraza.moringaschool.com_0.indexeddb.leveldb since it was missing.
-2023/11/30-08:59:17.844 2f5e Reusing MANIFEST /home/brian/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_baraza.moringaschool.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/01-15:13:49.712 33ba Reusing MANIFEST /home/brian/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_baraza.moringaschool.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/01-15:13:49.713 33ba Recovering log #3
+2023/12/01-15:13:49.715 33ba Reusing old log /home/brian/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_baraza.moringaschool.com_0.indexeddb.leveldb/000003.log 

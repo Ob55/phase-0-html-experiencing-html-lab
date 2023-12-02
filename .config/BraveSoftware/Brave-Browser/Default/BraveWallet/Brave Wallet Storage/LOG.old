@@ -1,2 +1,3 @@
-2023/11/30-08:49:11.128 2c8e Creating DB /home/brian/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage since it was missing.
-2023/11/30-08:49:11.133 2c8e Reusing MANIFEST /home/brian/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/MANIFEST-000001
+2023/12/01-15:13:28.324 33ba Reusing MANIFEST /home/brian/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/MANIFEST-000001
+2023/12/01-15:13:28.324 33ba Recovering log #3
+2023/12/01-15:13:28.325 33ba Reusing old log /home/brian/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage/000003.log 

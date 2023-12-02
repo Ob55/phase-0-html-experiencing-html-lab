@@ -90,4 +90,129 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/brian/Pictures/anonymous-hackers-suits-tie-wallpaper-preview.webp" added="2023-11-30T09:57:55Z" modified="2023-11-30T10:00:59Z" visited="2023-11-30T09:57:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T09:57:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/162862.webp" added="2023-11-30T09:59:25Z" modified="2023-11-30T10:01:05Z" visited="2023-11-30T09:59:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/webp"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T09:59:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures" added="2023-11-30T10:00:59Z" modified="2023-11-30T10:01:05Z" visited="2023-11-30T10:00:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2023-11-30T10:01:05Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/480538.png" added="2023-11-30T10:06:10Z" modified="2023-11-30T10:06:10Z" visited="2023-11-30T10:06:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T10:06:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/1044082.jpg" added="2023-11-30T10:07:04Z" modified="2023-11-30T10:07:32Z" visited="2023-11-30T10:07:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T10:07:04Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2023-11-30T10:07:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/475526.jpg" added="2023-11-30T10:11:19Z" modified="2023-11-30T10:27:44Z" visited="2023-11-30T10:11:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T10:11:19Z" count="1"/>
+          <bookmark:application name="gnome-control-center" exec="&apos;gnome-control-center %u&apos;" modified="2023-11-30T10:27:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/1073853.jpg" added="2023-11-30T10:22:13Z" modified="2023-11-30T10:22:13Z" visited="2023-11-30T10:22:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T10:22:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/1249107.jpg" added="2023-11-30T10:22:55Z" modified="2023-11-30T10:22:55Z" visited="2023-11-30T10:22:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="brave" exec="&apos;brave %u&apos;" modified="2023-11-30T10:22:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Downloads/google-chrome-stable_current_amd64.deb" added="2023-12-01T06:58:51Z" modified="2023-12-01T06:58:51Z" visited="2023-12-01T06:58:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-12-01T06:58:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/Screenshot%20from%202023-12-02%2018-08-30.png" added="2023-12-02T15:08:30Z" modified="2023-12-02T15:08:30Z" visited="2023-12-02T15:08:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2023-12-02T15:08:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/Screenshot%20from%202023-12-02%2018-08-32.png" added="2023-12-02T15:08:32Z" modified="2023-12-02T15:08:32Z" visited="2023-12-02T15:08:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2023-12-02T15:08:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Documents/index.html" added="2023-12-02T15:20:57Z" modified="2023-12-02T15:20:57Z" visited="2023-12-02T15:20:58.124252Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2023-12-02T15:20:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

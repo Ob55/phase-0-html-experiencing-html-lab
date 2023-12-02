@@ -284,3 +284,29 @@ git status
 git init
 git clone https://github.com/Ob55/Document-Structure-Continued.git
 git add .
+git clone https://github.com/Ob55/phase-0-html-document-structure-lab
+code .
+touch index.html
+code .
+git clone git@github.com:Ob55/Document-Structure-Continued.git
+git clone gh repo clone Ob55/phase-0-html-document-structure-lab
+git init
+git clone gh repo clone Ob55/phase-0-html-document-structure-lab
+git clone https://github.com/Ob55/phase-0-html-document-structure-lab
+git init
+git add .
+git remote origin -v 
+git rm --cached html/phase-0-html-experiencing-html-lab
+-f 
+-f
+use -f to force removal
+clear
+git init
+git add .
+git commit -m "Completed assignment"
+git push
+git clone git@github.com:Ob55/Document-Structure-Continued.git
+clear
+git init
+git status
+git push

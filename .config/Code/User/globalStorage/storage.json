@@ -1743,9 +1743,9 @@
             "folder": "file:///home/brian",
             "backupPath": "/home/brian/.config/Code/Backups/fadcc64b8fdf0cc840b87bd8623e1e4e",
             "uiState": {
-                "mode": 0,
-                "x": 252,
-                "y": 78,
+                "mode": 1,
+                "x": 558,
+                "y": 186,
                 "width": 683,
                 "height": 525
             }

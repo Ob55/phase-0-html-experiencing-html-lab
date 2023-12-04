@@ -255,7 +255,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -886,8 +887,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1815,8 +1815,8 @@
             "backupPath": "/home/brian/.config/Code/Backups/af8aa4a4c6c827b57c237aeb27c905a3",
             "uiState": {
                 "mode": 0,
-                "x": 53,
-                "y": 150,
+                "x": 50,
+                "y": 145,
                 "width": 1024,
                 "height": 488
             }

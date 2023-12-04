@@ -6,7 +6,7 @@
     <application id="gnome-control-center.desktop" open-window-count="0" score="18911.157592773438" last-seen="1701533722"/>
     <application id="yelp.desktop" open-window-count="0" score="5.00067138671875" last-seen="1701540576"/>
     <application id="file-roller.desktop" open-window-count="0" score="0" last-seen="1701321193"/>
-    <application id="brave-browser.desktop" open-window-count="1" score="14568.302734375" last-seen="1701674831"/>
+    <application id="brave-browser.desktop" open-window-count="1" score="14615.302734375" last-seen="1701676211"/>
     <application id="libreoffice-startcenter.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1701317774"/>
     <application id="firefox.desktop" open-window-count="0" score="14.091796875" last-seen="1701414377"/>
     <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="8.5770263671875" last-seen="1701551081"/>
@@ -14,7 +14,7 @@
     <application id="software-properties-gtk.desktop" open-window-count="0" score="0.0001220703125" last-seen="1701319134"/>
     <application id="gnome-session-properties.desktop" open-window-count="0" score="0.0084228515625" last-seen="1701320330"/>
     <application id="eog.desktop" open-window-count="0" score="0" last-seen="1701338854"/>
-    <application id="code.desktop" open-window-count="0" score="1731.1865234375" last-seen="1701674646"/>
+    <application id="code.desktop" open-window-count="1" score="1805.1865234375" last-seen="1701676066"/>
     <application id="gnome-mines.desktop" open-window-count="0" score="0" last-seen="1701320195"/>
     <application id="rhythmbox.desktop" open-window-count="0" score="9.1552734375e-05" last-seen="1701329754"/>
     <application id="ca.desrt.dconf-editor.desktop" open-window-count="0" score="18" last-seen="1701340655"/>

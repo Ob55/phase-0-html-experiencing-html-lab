@@ -463,3 +463,207 @@ clear
 
 
 
+gigit init
+git init
+git add .
+git clone https://github.com/Ob55/H1-tag
+git clone git@github.com:Ob55/H1-tag.git
+git remote add origin git@github.com:Ob55/H1-tag.git
+git branch -M main
+git push -u origin main
+git branch -M main
+git push
+git status
+git init
+git add .
+git push -u origin main
+git clone git@github.com:Ob55/H1-tag.git
+git push git@github.com:Ob55/H1-tag.git
+git branch -M main
+git push
+git push --set-upstream origin master
+git remote add https://github.com/Ob55/H1-tag
+clear
+git init
+git add new.html
+git commit -m "first commit"
+git commit
+git push origin main
+git clone https://github.com/Ob55/H1-tag
+git clone git@github.com:Ob55/H1-tag.git
+git clone <git@github.com:Ob55/H1-tag.git> <RP>
+git clone <repository_url> <new_directory_name>
+clear
+git init
+git add .
+git remote add origin <git@github.com:Ob55/H1-tag.git>
+git push
+git push --set-upstream origin master
+git push origin master
+cd 
+mkdir href
+cd href
+touch index.html
+git init
+git add
+git add .
+git clone https://github.com/Ob55/href
+code .
+git push
+git remote add origin git@github.com:Ob55/Link.git
+git push -u origin main
+git remote add origin git@github.com:Ob55/Link.git
+git branch -M main
+git  push
+clear
+git init
+git add .
+git clone https://github.com/Ob55/Link
+git branch -m main~
+git init
+git add .
+git init
+git add .
+git clone git@github.com:Ob55/Link.git
+clear
+git init
+git add .
+git commit -m "Completed assignment"
+git push
+git push --set-upstream origin master
+git remote add origin git@github.com:Ob55/Link.git
+git push
+git init
+git add .
+clear
+cd
+mkdir List
+cd List
+touch index.html
+git init
+git add .
+git clone https://github.com/Ob55/List
+code .
+clear
+git init
+git add .
+git clone git@github.com:Ob55/List.git
+git add .
+git push
+git push --set-upstream origin master
+git add .
+git clone https://github.com/Ob55/List
+git remote add origin https://github.com/Ob55/List
+git push -u origin main
+git push
+clear
+git init 
+git init
+git add
+git add .
+git clone https://github.com/Ob55/List
+git branch -M main
+git remote add origin https://github.com/Ob55/List
+git push -u origin main
+draggonne<55>
+git push -u origin main
+git push
+git push --set-upstream origin main
+clear
+cd
+git init
+git add .
+git clone git@github.com:Ob55/List.git
+git push -u origin main
+git branch -M main
+cd
+mkdir Table 
+cd Table
+touch index.html
+cd
+git clone git@github.com:Ob55/phase-0-html-tables-lab.git
+code .
+cd Table
+code .
+git add .
+git commit -m "complited assigment"
+git push
+clear
+git init
+git add .
+git commit -m "complited assigment"
+git push 
+git remot add origin https://github.com/Ob55/phase-0-html-experiencing-html-lab
+git remote
+git remote add origin https://github.com/learn-co-curriculum/phase-0-html-tables-lab/fork
+git push -u origin main
+git push
+git push --set-upstream origin master
+git remote add origin git@github.com:learn-co-curriculum/phase-0-html-tables-lab.git
+git push
+clear
+git init 
+git add .
+git add index.htm
+git add index.html
+git commit -m "first commit"
+git branch -m main
+git remote add origin git@github.com:Ob55/Table.git
+git push -u origin main
+git push
+git push --set-upstream origin main
+git clone git@github.com:Ob55/Table.git
+git status
+git reset
+git clone git@github.com:Ob55/Table.git
+git add .
+git commit -m "complited aassigment"
+git clone git@github.com:learn-co-curriculum/phase-0-html-tables-lab.git
+git add .
+git push
+git push --set-upstream origin master
+git remote add origin git@github.com:learn-co-curriculum/phase-0-html-tables-lab.git
+git push -u origin main
+git remote add origin https://github.com/learn-co-curriculum/phase-0-html-tables-lab
+git branch -M main
+clear
+git init
+git add .
+git clone  git@github.com:learn-co-curriculum/phase-0-html-tables-lab.git
+git add .
+git commit -m "complit assigment"
+git push
+git branch -M main
+git push
+git branch -M main
+git remote add origin git@github.com:learn-co-curriculum/phase-0-html-tables-lab.git
+git push -u origin main
+git clone git@github.com:Ob55/Table.git
+clear
+git init
+git add .
+git clone https://github.com/Ob55/Table
+git push
+git push --set-upstream origin main
+clear
+git add .
+git push 
+git push --set-upstream origin main
+git clone https://github.com/learn-co-curriculum/phase-0-html-tables-lab
+git push 
+git push --set-upstream origin main
+clear
+git clone https://github.com/learn-co-curriculum/phase-0-html-tables-lab.git
+cd cd phase-0-html-tables-lab
+cd phase-0-html-tables-lab
+git fork git@github.com:learn-co-curriculum/phase-0-html-tables-lab.git
+git push
+git clone https://github.com/learn-co-curriculum/phase-0-html-tables-lab
+git push
+git add .
+clear
+cd
+git init
+git add ..
+git add .
+clear

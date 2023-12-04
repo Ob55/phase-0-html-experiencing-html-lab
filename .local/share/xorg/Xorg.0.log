@@ -1,1332 +1,577 @@
-[  4567.786] (--) Log file renamed from "/home/brian/.local/share/xorg/Xorg.pid-7182.log" to "/home/brian/.local/share/xorg/Xorg.0.log"
-[  4567.787] 
-X.Org X Server 1.20.1
+[    14.236] (--) Log file renamed from "/home/brian/.local/share/xorg/Xorg.pid-940.log" to "/home/brian/.local/share/xorg/Xorg.0.log"
+[    14.237] 
+X.Org X Server 1.20.8
 X Protocol Version 11, Revision 0
-[  4567.787] Build Operating System: Linux 4.4.0-140-generic x86_64 Ubuntu
-[  4567.787] Current Operating System: Linux obrian 4.18.0-15-generic #16~18.04.1-Ubuntu SMP Thu Feb 7 14:06:04 UTC 2019 x86_64
-[  4567.787] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.18.0-15-generic root=UUID=451e77b5-d050-42cf-bdad-7defec455ef0 ro quiet splash vt.handoff=1
-[  4567.787] Build Date: 27 November 2018  05:27:12PM
-[  4567.787] xorg-server-hwe-18.04 2:1.20.1-3ubuntu2.1~18.04.1 (For technical support please see http://www.ubuntu.com/support) 
-[  4567.787] Current version of pixman: 0.34.0
-[  4567.787] 	Before reporting problems, check http://wiki.x.org
+[    14.237] Build Operating System: Linux 5.4.0-139-generic x86_64 Ubuntu
+[    14.237] Current Operating System: Linux obrian 5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023 x86_64
+[    14.237] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-150-generic root=UUID=451e77b5-d050-42cf-bdad-7defec455ef0 ro quiet splash vt.handoff=1
+[    14.237] Build Date: 29 March 2023  01:26:59PM
+[    14.237] xorg-server-hwe-18.04 2:1.20.8-2ubuntu2.2~18.04.11 (For technical support please see http://www.ubuntu.com/support) 
+[    14.237] Current version of pixman: 0.34.0
+[    14.237] 	Before reporting problems, check http://wiki.x.org
 	to make sure that you have the latest version.
-[  4567.787] Markers: (--) probed, (**) from config file, (==) default setting,
+[    14.237] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[  4567.787] (==) Log file: "/home/brian/.local/share/xorg/Xorg.0.log", Time: Thu Nov 30 14:07:52 2023
-[  4567.787] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
-[  4567.788] (==) No Layout section.  Using the first Screen section.
-[  4567.788] (==) No screen section available. Using defaults.
-[  4567.788] (**) |-->Screen "Default Screen Section" (0)
-[  4567.788] (**) |   |-->Monitor "<default monitor>"
-[  4567.788] (==) No monitor specified for screen "Default Screen Section".
+[    14.237] (==) Log file: "/home/brian/.local/share/xorg/Xorg.0.log", Time: Mon Dec  4 08:50:52 2023
+[    14.238] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    14.239] (==) No Layout section.  Using the first Screen section.
+[    14.239] (==) No screen section available. Using defaults.
+[    14.239] (**) |-->Screen "Default Screen Section" (0)
+[    14.239] (**) |   |-->Monitor "<default monitor>"
+[    14.239] (==) No monitor specified for screen "Default Screen Section".
 	Using a default monitor configuration.
-[  4567.788] (==) Automatically adding devices
-[  4567.788] (==) Automatically enabling devices
-[  4567.788] (==) Automatically adding GPU devices
-[  4567.788] (==) Automatically binding GPU devices
-[  4567.788] (==) Max clients allowed: 256, resource mask: 0x1fffff
-[  4567.788] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
-[  4567.789] 	Entry deleted from font path.
-[  4567.789] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
-[  4567.789] 	Entry deleted from font path.
-[  4567.789] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
-[  4567.789] 	Entry deleted from font path.
-[  4567.789] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
-[  4567.789] 	Entry deleted from font path.
-[  4567.789] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
-[  4567.789] 	Entry deleted from font path.
-[  4567.789] (==) FontPath set to:
+[    14.239] (==) Automatically adding devices
+[    14.239] (==) Automatically enabling devices
+[    14.240] (==) Automatically adding GPU devices
+[    14.240] (==) Automatically binding GPU devices
+[    14.240] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    14.240] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    14.240] 	Entry deleted from font path.
+[    14.240] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    14.240] 	Entry deleted from font path.
+[    14.240] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    14.240] 	Entry deleted from font path.
+[    14.240] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    14.240] 	Entry deleted from font path.
+[    14.240] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    14.240] 	Entry deleted from font path.
+[    14.240] (==) FontPath set to:
 	/usr/share/fonts/X11/misc,
 	/usr/share/fonts/X11/Type1,
 	built-ins
-[  4567.789] (==) ModulePath set to "/usr/lib/xorg/modules"
-[  4567.789] (II) The server relies on udev to provide the list of input devices.
+[    14.240] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    14.240] (II) The server relies on udev to provide the list of input devices.
 	If no devices become available, reconfigure udev or disable AutoAddDevices.
-[  4567.789] (II) Loader magic: 0x55c986907020
-[  4567.789] (II) Module ABI versions:
-[  4567.789] 	X.Org ANSI C Emulation: 0.4
-[  4567.789] 	X.Org Video Driver: 24.0
-[  4567.789] 	X.Org XInput driver : 24.1
-[  4567.789] 	X.Org Server Extension : 10.0
-[  4567.790] (++) using VT number 2
+[    14.240] (II) Loader magic: 0x55cef590c020
+[    14.240] (II) Module ABI versions:
+[    14.240] 	X.Org ANSI C Emulation: 0.4
+[    14.240] 	X.Org Video Driver: 24.1
+[    14.240] 	X.Org XInput driver : 24.1
+[    14.240] 	X.Org Server Extension : 10.0
+[    14.241] (++) using VT number 1
 
-[  4567.793] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_35
-[  4567.793] (II) xfree86: Adding drm device (/dev/dri/card0)
-[  4567.794] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
-[  4567.796] (--) PCI:*(0@0:2:0) 8086:1916:103c:8079 rev 7, Mem @ 0xe0000000/16777216, 0xd0000000/268435456, I/O @ 0x00003000/64, BIOS @ 0x????????/131072
-[  4567.796] (II) LoadModule: "glx"
-[  4567.796] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
-[  4567.797] (II) Module glx: vendor="X.Org Foundation"
-[  4567.797] 	compiled for 1.20.1, module version = 1.0.0
-[  4567.797] 	ABI class: X.Org Server Extension, version 10.0
-[  4567.797] (==) Matched modesetting as autoconfigured driver 0
-[  4567.797] (==) Matched fbdev as autoconfigured driver 1
-[  4567.797] (==) Matched vesa as autoconfigured driver 2
-[  4567.797] (==) Assigned the driver to the xf86ConfigLayout
-[  4567.797] (II) LoadModule: "modesetting"
-[  4567.797] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
-[  4567.797] (II) Module modesetting: vendor="X.Org Foundation"
-[  4567.797] 	compiled for 1.20.1, module version = 1.20.1
-[  4567.797] 	Module class: X.Org Video Driver
-[  4567.797] 	ABI class: X.Org Video Driver, version 24.0
-[  4567.797] (II) LoadModule: "fbdev"
-[  4567.798] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
-[  4567.798] (II) Module fbdev: vendor="X.Org Foundation"
-[  4567.798] 	compiled for 1.20.1, module version = 0.5.0
-[  4567.798] 	Module class: X.Org Video Driver
-[  4567.798] 	ABI class: X.Org Video Driver, version 24.0
-[  4567.798] (II) LoadModule: "vesa"
-[  4567.798] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
-[  4567.798] (II) Module vesa: vendor="X.Org Foundation"
-[  4567.798] 	compiled for 1.20.1, module version = 2.4.0
-[  4567.798] 	Module class: X.Org Video Driver
-[  4567.798] 	ABI class: X.Org Video Driver, version 24.0
-[  4567.798] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
-[  4567.798] (II) FBDEV: driver for framebuffer: fbdev
-[  4567.798] (II) VESA: driver for VESA chipsets: vesa
-[  4567.798] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
-[  4567.798] (II) modeset(0): using drv /dev/dri/card0
-[  4567.798] (WW) Falling back to old probe method for fbdev
-[  4567.798] (II) Loading sub module "fbdevhw"
-[  4567.798] (II) LoadModule: "fbdevhw"
-[  4567.798] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
-[  4567.798] (II) Module fbdevhw: vendor="X.Org Foundation"
-[  4567.798] 	compiled for 1.20.1, module version = 0.0.2
-[  4567.798] 	ABI class: X.Org Video Driver, version 24.0
-[  4567.798] (EE) open /dev/fb0: Permission denied
-[  4567.798] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
-[  4567.798] (II) modeset(0): Creating default Display subsection in Screen section
+[    14.244] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    14.246] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    14.247] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[    14.250] (--) PCI:*(0@0:2:0) 8086:1916:103c:8079 rev 7, Mem @ 0xe0000000/16777216, 0xd0000000/268435456, I/O @ 0x00003000/64, BIOS @ 0x????????/131072
+[    14.250] (II) LoadModule: "glx"
+[    14.251] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    14.276] (II) Module glx: vendor="X.Org Foundation"
+[    14.276] 	compiled for 1.20.8, module version = 1.0.0
+[    14.276] 	ABI class: X.Org Server Extension, version 10.0
+[    14.276] (==) Matched modesetting as autoconfigured driver 0
+[    14.276] (==) Matched fbdev as autoconfigured driver 1
+[    14.276] (==) Matched vesa as autoconfigured driver 2
+[    14.276] (==) Assigned the driver to the xf86ConfigLayout
+[    14.276] (II) LoadModule: "modesetting"
+[    14.276] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    14.276] (II) Module modesetting: vendor="X.Org Foundation"
+[    14.276] 	compiled for 1.20.8, module version = 1.20.8
+[    14.276] 	Module class: X.Org Video Driver
+[    14.276] 	ABI class: X.Org Video Driver, version 24.1
+[    14.276] (II) LoadModule: "fbdev"
+[    14.277] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    14.277] (II) Module fbdev: vendor="X.Org Foundation"
+[    14.277] 	compiled for 1.20.1, module version = 0.5.0
+[    14.277] 	Module class: X.Org Video Driver
+[    14.277] 	ABI class: X.Org Video Driver, version 24.0
+[    14.277] (II) LoadModule: "vesa"
+[    14.277] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    14.277] (II) Module vesa: vendor="X.Org Foundation"
+[    14.277] 	compiled for 1.20.1, module version = 2.4.0
+[    14.277] 	Module class: X.Org Video Driver
+[    14.277] 	ABI class: X.Org Video Driver, version 24.0
+[    14.277] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    14.277] (II) FBDEV: driver for framebuffer: fbdev
+[    14.277] (II) VESA: driver for VESA chipsets: vesa
+[    14.277] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    14.277] (II) modeset(0): using drv /dev/dri/card0
+[    14.277] (WW) Falling back to old probe method for fbdev
+[    14.277] (II) Loading sub module "fbdevhw"
+[    14.277] (II) LoadModule: "fbdevhw"
+[    14.277] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    14.278] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    14.278] 	compiled for 1.20.8, module version = 0.0.2
+[    14.278] 	ABI class: X.Org Video Driver, version 24.1
+[    14.278] (EE) open /dev/fb0: Permission denied
+[    14.278] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    14.278] (II) modeset(0): Creating default Display subsection in Screen section
 	"Default Screen Section" for depth/fbbpp 24/32
-[  4567.798] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
-[  4567.798] (==) modeset(0): RGB weight 888
-[  4567.798] (==) modeset(0): Default visual is TrueColor
-[  4567.798] (II) Loading sub module "glamoregl"
-[  4567.798] (II) LoadModule: "glamoregl"
-[  4567.798] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
-[  4567.801] (II) Module glamoregl: vendor="X.Org Foundation"
-[  4567.801] 	compiled for 1.20.1, module version = 1.0.1
-[  4567.801] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[  4567.815] (II) modeset(0): glamor X acceleration enabled on Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2) 
-[  4567.815] (II) modeset(0): glamor initialized
-[  4567.816] (II) modeset(0): Output eDP-1 has no monitor section
-[  4567.816] (II) modeset(0): Output DP-1 has no monitor section
-[  4567.821] (II) modeset(0): Output HDMI-1 has no monitor section
-[  4567.821] (II) modeset(0): Output DP-2 has no monitor section
-[  4567.825] (II) modeset(0): Output HDMI-2 has no monitor section
-[  4567.827] (II) modeset(0): EDID for output eDP-1
-[  4567.827] (II) modeset(0): Manufacturer: BOE  Model: 697  Serial#: 0
-[  4567.827] (II) modeset(0): Year: 2015  Week: 1
-[  4567.827] (II) modeset(0): EDID Version: 1.4
-[  4567.827] (II) modeset(0): Digital Display Input
-[  4567.827] (II) modeset(0): 6 bits per channel
-[  4567.827] (II) modeset(0): Digital interface is DisplayPort
-[  4567.827] (II) modeset(0): Max Image Size [cm]: horiz.: 31  vert.: 17
-[  4567.827] (II) modeset(0): Gamma: 2.20
-[  4567.827] (II) modeset(0): No DPMS capabilities specified
-[  4567.827] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
-[  4567.827] (II) modeset(0): First detailed timing is preferred mode
-[  4567.827] (II) modeset(0): Preferred mode is native pixel format and refresh rate
-[  4567.827] (II) modeset(0): redX: 0.590 redY: 0.350   greenX: 0.329 greenY: 0.555
-[  4567.827] (II) modeset(0): blueX: 0.152 blueY: 0.118   whiteX: 0.312 whiteY: 0.328
-[  4567.827] (II) modeset(0): Manufacturer's mask: 0
-[  4567.827] (II) modeset(0): Supported detailed timing:
-[  4567.827] (II) modeset(0): clock: 70.1 MHz   Image Size:  309 x 173 mm
-[  4567.827] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1498 h_border: 0
-[  4567.827] (II) modeset(0): v_active: 768  v_sync: 772  v_sync_end 776 v_blanking: 780 v_border: 0
-[  4567.827] (II) modeset(0): Supported detailed timing:
-[  4567.827] (II) modeset(0): clock: 46.7 MHz   Image Size:  309 x 173 mm
-[  4567.827] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1498 h_border: 0
-[  4567.827] (II) modeset(0): v_active: 768  v_sync: 772  v_sync_end 776 v_blanking: 780 v_border: 0
-[  4567.827] (II) modeset(0): Unknown vendor-specific block 2
-[  4567.827] (II) modeset(0): EDID (in hex):
-[  4567.827] (II) modeset(0): 	00ffffffffffff0009e5970600000000
-[  4567.827] (II) modeset(0): 	01190104951f11780a24109759548e27
-[  4567.827] (II) modeset(0): 	1e505400000001010101010101010101
-[  4567.827] (II) modeset(0): 	010101010101641b568450000c303020
-[  4567.827] (II) modeset(0): 	440035ad1000001a3e12568450000c30
-[  4567.827] (II) modeset(0): 	3020440035ad1000001a000000000000
-[  4567.827] (II) modeset(0): 	00000000000000000000000000000002
-[  4567.827] (II) modeset(0): 	000c46f90b3c6e0b0f19700000000096
-[  4567.827] (II) modeset(0): Printing probed modes for output eDP-1
-[  4567.827] (II) modeset(0): Modeline "1366x768"x60.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4567.827] (II) modeset(0): Modeline "1366x768"x40.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4567.827] (II) modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
-[  4567.827] (II) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
-[  4567.827] (II) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
-[  4567.827] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
-[  4567.827] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
-[  4567.827] (II) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
-[  4567.827] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
-[  4567.827] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
-[  4567.827] (II) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
-[  4567.827] (II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
-[  4567.827] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
-[  4567.827] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
-[  4567.827] (II) modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
-[  4567.827] (II) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
-[  4567.827] (II) modeset(0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
-[  4567.828] (II) modeset(0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
-[  4567.828] (II) modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
-[  4567.828] (II) modeset(0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
-[  4567.828] (II) modeset(0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
-[  4567.828] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
-[  4567.828] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
-[  4567.828] (II) modeset(0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
-[  4567.828] (II) modeset(0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
-[  4567.828] (II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
-[  4567.828] (II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
-[  4567.828] (II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
-[  4567.828] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
-[  4567.828] (II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
-[  4567.828] (II) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
-[  4567.828] (II) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
-[  4567.828] (II) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
-[  4567.828] (II) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
-[  4567.828] (II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
-[  4567.828] (II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
-[  4567.828] (II) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
-[  4567.828] (II) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
-[  4567.828] (II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
-[  4567.828] (II) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
-[  4567.828] (II) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
-[  4567.828] (II) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
-[  4567.828] (II) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
-[  4567.828] (II) modeset(0): EDID for output DP-1
-[  4567.832] (II) modeset(0): EDID for output HDMI-1
-[  4567.832] (II) modeset(0): EDID for output DP-2
-[  4567.836] (II) modeset(0): EDID for output HDMI-2
-[  4567.836] (II) modeset(0): Output eDP-1 connected
-[  4567.837] (II) modeset(0): Output DP-1 disconnected
-[  4567.837] (II) modeset(0): Output HDMI-1 disconnected
-[  4567.837] (II) modeset(0): Output DP-2 disconnected
-[  4567.837] (II) modeset(0): Output HDMI-2 disconnected
-[  4567.837] (II) modeset(0): Using exact sizes for initial modes
-[  4567.837] (II) modeset(0): Output eDP-1 using initial mode 1366x768 +0+0
-[  4567.837] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
-[  4567.837] (==) modeset(0): DPI set to (96, 96)
-[  4567.837] (II) Loading sub module "fb"
-[  4567.837] (II) LoadModule: "fb"
-[  4567.837] (II) Loading /usr/lib/xorg/modules/libfb.so
-[  4567.837] (II) Module fb: vendor="X.Org Foundation"
-[  4567.837] 	compiled for 1.20.1, module version = 1.0.0
-[  4567.837] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[  4567.837] (II) UnloadModule: "fbdev"
-[  4567.837] (II) Unloading fbdev
-[  4567.837] (II) UnloadSubModule: "fbdevhw"
-[  4567.837] (II) Unloading fbdevhw
-[  4567.837] (II) UnloadModule: "vesa"
-[  4567.837] (II) Unloading vesa
-[  4567.840] (==) modeset(0): Backing store enabled
-[  4567.840] (==) modeset(0): Silken mouse enabled
-[  4567.889] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
-[  4567.889] (==) modeset(0): DPMS enabled
-[  4567.890] (II) modeset(0): [DRI2] Setup complete
-[  4567.890] (II) modeset(0): [DRI2]   DRI driver: i965
-[  4567.890] (II) modeset(0): [DRI2]   VDPAU driver: i965
-[  4567.890] (II) Initializing extension Generic Event Extension
-[  4567.890] (II) Initializing extension SHAPE
-[  4567.890] (II) Initializing extension MIT-SHM
-[  4567.891] (II) Initializing extension XInputExtension
-[  4567.891] (II) Initializing extension XTEST
-[  4567.891] (II) Initializing extension BIG-REQUESTS
-[  4567.891] (II) Initializing extension SYNC
-[  4567.892] (II) Initializing extension XKEYBOARD
-[  4567.892] (II) Initializing extension XC-MISC
-[  4567.892] (II) Initializing extension SECURITY
-[  4567.892] (II) Initializing extension XFIXES
-[  4567.893] (II) Initializing extension RENDER
-[  4567.893] (II) Initializing extension RANDR
-[  4567.893] (II) Initializing extension COMPOSITE
-[  4567.893] (II) Initializing extension DAMAGE
-[  4567.894] (II) Initializing extension MIT-SCREEN-SAVER
-[  4567.894] (II) Initializing extension DOUBLE-BUFFER
-[  4567.894] (II) Initializing extension RECORD
-[  4567.894] (II) Initializing extension DPMS
-[  4567.895] (II) Initializing extension Present
-[  4567.895] (II) Initializing extension DRI3
-[  4567.895] (II) Initializing extension X-Resource
-[  4567.895] (II) Initializing extension XVideo
-[  4567.896] (II) Initializing extension XVideo-MotionCompensation
-[  4567.896] (II) Initializing extension SELinux
-[  4567.896] (II) SELinux: Disabled on system
-[  4567.896] (II) Initializing extension GLX
-[  4567.905] (II) AIGLX: Loaded and initialized i965
-[  4567.905] (II) GLX: Initialized DRI2 GL provider for screen 0
-[  4567.905] (II) Initializing extension XFree86-VidModeExtension
-[  4567.905] (II) Initializing extension XFree86-DGA
-[  4567.905] (II) Initializing extension XFree86-DRI
-[  4567.905] (II) Initializing extension DRI2
-[  4567.909] (II) modeset(0): Damage tracking initialized
-[  4567.909] (II) modeset(0): Setting screen physical size to 361 x 203
-[  4567.955] (II) config/udev: Adding input device Power Button (/dev/input/event2)
-[  4567.955] (**) Power Button: Applying InputClass "libinput keyboard catchall"
-[  4567.955] (II) LoadModule: "libinput"
-[  4567.955] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
-[  4567.956] (II) Module libinput: vendor="X.Org Foundation"
-[  4567.956] 	compiled for 1.20.1, module version = 0.28.1
-[  4567.956] 	Module class: X.Org XInput Driver
-[  4567.956] 	ABI class: X.Org XInput driver, version 24.1
-[  4567.956] (II) Using input driver 'libinput' for 'Power Button'
-[  4567.957] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 21 paused 0
-[  4567.957] (**) Power Button: always reports core events
-[  4567.957] (**) Option "Device" "/dev/input/event2"
-[  4567.957] (**) Option "_source" "server/udev"
-[  4567.958] (II) event2  - Power Button: is tagged by udev as: Keyboard
-[  4567.958] (II) event2  - Power Button: device is a keyboard
-[  4567.958] (II) event2  - Power Button: device removed
-[  4567.958] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
-[  4567.958] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
-[  4567.958] (**) Option "xkb_model" "pc105"
-[  4567.958] (**) Option "xkb_layout" "us"
-[  4567.959] (II) event2  - Power Button: is tagged by udev as: Keyboard
-[  4567.959] (II) event2  - Power Button: device is a keyboard
-[  4567.959] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
-[  4567.959] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
-[  4567.959] (II) Using input driver 'libinput' for 'Video Bus'
-[  4567.960] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 24 paused 0
-[  4567.960] (**) Video Bus: always reports core events
-[  4567.960] (**) Option "Device" "/dev/input/event4"
-[  4567.960] (**) Option "_source" "server/udev"
-[  4567.960] (II) event4  - Video Bus: is tagged by udev as: Keyboard
-[  4567.961] (II) event4  - Video Bus: device is a keyboard
-[  4567.961] (II) event4  - Video Bus: device removed
-[  4567.961] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input10/event4"
-[  4567.961] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
-[  4567.961] (**) Option "xkb_model" "pc105"
-[  4567.961] (**) Option "xkb_layout" "us"
-[  4567.961] (II) event4  - Video Bus: is tagged by udev as: Keyboard
-[  4567.961] (II) event4  - Video Bus: device is a keyboard
-[  4567.962] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
-[  4567.962] (II) No input driver specified, ignoring this device.
-[  4567.962] (II) This device may have been added with another device file.
-[  4567.962] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
-[  4567.962] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
-[  4567.962] (II) Using input driver 'libinput' for 'Sleep Button'
-[  4567.963] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 25 paused 0
-[  4567.963] (**) Sleep Button: always reports core events
-[  4567.963] (**) Option "Device" "/dev/input/event0"
-[  4567.963] (**) Option "_source" "server/udev"
-[  4567.964] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
-[  4567.964] (II) event0  - Sleep Button: device is a keyboard
-[  4567.964] (II) event0  - Sleep Button: device removed
-[  4567.964] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
-[  4567.964] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
-[  4567.964] (**) Option "xkb_model" "pc105"
-[  4567.964] (**) Option "xkb_layout" "us"
-[  4567.964] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
-[  4567.964] (II) event0  - Sleep Button: device is a keyboard
-[  4567.966] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[  4567.966] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[  4567.966] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[  4567.966] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 26 paused 0
-[  4567.966] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[  4567.966] (**) Option "Device" "/dev/input/event6"
-[  4567.966] (**) Option "_source" "server/udev"
-[  4567.967] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[  4567.967] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[  4567.967] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[  4567.967] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.0001/input/input12/event6"
-[  4567.967] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
-[  4567.967] (**) Option "xkb_model" "pc105"
-[  4567.967] (**) Option "xkb_layout" "us"
-[  4567.968] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[  4567.968] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[  4567.969] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[  4567.969] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[  4567.969] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[  4567.970] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 27 paused 0
-[  4567.970] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[  4567.970] (**) Option "Device" "/dev/input/event7"
-[  4567.970] (**) Option "_source" "server/udev"
-[  4567.971] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[  4567.971] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[  4567.971] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[  4567.971] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input13/event7"
-[  4567.971] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 10)
-[  4567.972] (**) Option "AccelerationScheme" "none"
-[  4567.972] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[  4567.972] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[  4567.972] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[  4567.972] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[  4567.972] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[  4567.973] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[  4567.973] (II) No input driver specified, ignoring this device.
-[  4567.973] (II) This device may have been added with another device file.
-[  4567.973] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[  4567.973] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[  4567.973] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[  4567.974] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 28 paused 0
-[  4567.974] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[  4567.974] (**) Option "Device" "/dev/input/event8"
-[  4567.974] (**) Option "_source" "server/udev"
-[  4567.975] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[  4567.975] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[  4567.975] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[  4567.975] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[  4567.975] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input14/event8"
-[  4567.975] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 11)
-[  4567.975] (**) Option "AccelerationScheme" "none"
-[  4567.975] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[  4567.975] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[  4567.975] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[  4567.976] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[  4567.976] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[  4567.976] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[  4567.976] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[  4567.976] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[  4567.977] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 29 paused 0
-[  4567.977] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[  4567.977] (**) Option "Device" "/dev/input/event9"
-[  4567.977] (**) Option "_source" "server/udev"
-[  4567.977] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[  4567.977] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[  4567.977] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[  4567.977] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input15/event9"
-[  4567.977] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[  4567.977] (**) Option "xkb_model" "pc105"
-[  4567.977] (**) Option "xkb_layout" "us"
-[  4567.978] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[  4567.978] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[  4567.979] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[  4567.979] (II) No input driver specified, ignoring this device.
-[  4567.979] (II) This device may have been added with another device file.
-[  4567.979] (II) config/udev: Adding input device HP HD Camera: HP HD Camera (/dev/input/event13)
-[  4567.979] (**) HP HD Camera: HP HD Camera: Applying InputClass "libinput keyboard catchall"
-[  4567.979] (II) Using input driver 'libinput' for 'HP HD Camera: HP HD Camera'
-[  4567.980] (II) systemd-logind: got fd for /dev/input/event13 13:77 fd 30 paused 0
-[  4567.980] (**) HP HD Camera: HP HD Camera: always reports core events
-[  4567.980] (**) Option "Device" "/dev/input/event13"
-[  4567.980] (**) Option "_source" "server/udev"
-[  4567.981] (II) event13 - HP HD Camera: HP HD Camera: is tagged by udev as: Keyboard
-[  4567.981] (II) event13 - HP HD Camera: HP HD Camera: device is a keyboard
-[  4567.981] (II) event13 - HP HD Camera: HP HD Camera: device removed
-[  4567.981] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/input/input20/event13"
-[  4567.981] (II) XINPUT: Adding extended input device "HP HD Camera: HP HD Camera" (type: KEYBOARD, id 13)
-[  4567.981] (**) Option "xkb_model" "pc105"
-[  4567.981] (**) Option "xkb_layout" "us"
-[  4567.982] (II) event13 - HP HD Camera: HP HD Camera: is tagged by udev as: Keyboard
-[  4567.982] (II) event13 - HP HD Camera: HP HD Camera: device is a keyboard
-[  4567.982] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event15)
-[  4567.982] (II) No input driver specified, ignoring this device.
-[  4567.982] (II) This device may have been added with another device file.
-[  4567.982] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event16)
-[  4567.982] (II) No input driver specified, ignoring this device.
-[  4567.982] (II) This device may have been added with another device file.
-[  4567.983] (II) config/udev: Adding input device HDA Intel PCH Dock Line Out (/dev/input/event17)
-[  4567.983] (II) No input driver specified, ignoring this device.
-[  4567.983] (II) This device may have been added with another device file.
-[  4567.983] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event18)
-[  4567.983] (II) No input driver specified, ignoring this device.
-[  4567.983] (II) This device may have been added with another device file.
-[  4567.983] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event19)
-[  4567.983] (II) No input driver specified, ignoring this device.
-[  4567.983] (II) This device may have been added with another device file.
-[  4567.984] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event20)
-[  4567.984] (II) No input driver specified, ignoring this device.
-[  4567.984] (II) This device may have been added with another device file.
-[  4567.984] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event21)
-[  4567.984] (II) No input driver specified, ignoring this device.
-[  4567.984] (II) This device may have been added with another device file.
-[  4567.984] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event22)
-[  4567.984] (II) No input driver specified, ignoring this device.
-[  4567.984] (II) This device may have been added with another device file.
-[  4567.985] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event23)
-[  4567.985] (II) No input driver specified, ignoring this device.
-[  4567.985] (II) This device may have been added with another device file.
-[  4567.985] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
-[  4567.985] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
-[  4567.985] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
-[  4567.986] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 31 paused 0
-[  4567.986] (**) AT Translated Set 2 keyboard: always reports core events
-[  4567.986] (**) Option "Device" "/dev/input/event3"
-[  4567.986] (**) Option "_source" "server/udev"
-[  4567.986] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
-[  4567.986] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
-[  4567.986] (II) event3  - AT Translated Set 2 keyboard: device removed
-[  4567.986] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
-[  4567.986] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
-[  4567.986] (**) Option "xkb_model" "pc105"
-[  4567.986] (**) Option "xkb_layout" "us"
-[  4567.987] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
-[  4567.987] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
-[  4567.988] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/event5)
-[  4567.988] (**) PS/2 Generic Mouse: Applying InputClass "libinput pointer catchall"
-[  4567.988] (II) Using input driver 'libinput' for 'PS/2 Generic Mouse'
-[  4567.988] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 32 paused 0
-[  4567.988] (**) PS/2 Generic Mouse: always reports core events
-[  4567.988] (**) Option "Device" "/dev/input/event5"
-[  4567.988] (**) Option "_source" "server/udev"
-[  4567.989] (II) event5  - PS/2 Generic Mouse: is tagged by udev as: Mouse
-[  4567.989] (II) event5  - PS/2 Generic Mouse: device is a pointer
-[  4567.989] (II) event5  - PS/2 Generic Mouse: device removed
-[  4567.989] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio2/input/input9/event5"
-[  4567.989] (II) XINPUT: Adding extended input device "PS/2 Generic Mouse" (type: MOUSE, id 15)
-[  4567.989] (**) Option "AccelerationScheme" "none"
-[  4567.989] (**) PS/2 Generic Mouse: (accel) selected scheme none/0
-[  4567.989] (**) PS/2 Generic Mouse: (accel) acceleration factor: 2.000
-[  4567.989] (**) PS/2 Generic Mouse: (accel) acceleration threshold: 4
-[  4567.990] (II) event5  - PS/2 Generic Mouse: is tagged by udev as: Mouse
-[  4567.990] (II) event5  - PS/2 Generic Mouse: device is a pointer
-[  4567.990] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/mouse0)
-[  4567.990] (II) No input driver specified, ignoring this device.
-[  4567.990] (II) This device may have been added with another device file.
-[  4567.990] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event11)
-[  4567.990] (**) SynPS/2 Synaptics TouchPad: Applying InputClass "libinput touchpad catchall"
-[  4567.990] (II) Using input driver 'libinput' for 'SynPS/2 Synaptics TouchPad'
-[  4567.991] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 33 paused 0
-[  4567.991] (**) SynPS/2 Synaptics TouchPad: always reports core events
-[  4567.991] (**) Option "Device" "/dev/input/event11"
-[  4567.991] (**) Option "_source" "server/udev"
-[  4567.992] (II) event11 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
-[  4567.992] (II) event11 - SynPS/2 Synaptics TouchPad: device is a touchpad
-[  4567.992] (II) event11 - SynPS/2 Synaptics TouchPad: device removed
-[  4567.992] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio3/input/input11/event11"
-[  4567.992] (II) XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 16)
-[  4567.993] (**) Option "AccelerationScheme" "none"
-[  4567.993] (**) SynPS/2 Synaptics TouchPad: (accel) selected scheme none/0
-[  4567.993] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration factor: 2.000
-[  4567.993] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration threshold: 4
-[  4567.993] (II) event11 - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
-[  4567.993] (II) event11 - SynPS/2 Synaptics TouchPad: device is a touchpad
-[  4567.994] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse2)
-[  4567.994] (II) No input driver specified, ignoring this device.
-[  4567.994] (II) This device may have been added with another device file.
-[  4567.994] (II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/event24)
-[  4567.994] (II) No input driver specified, ignoring this device.
-[  4567.994] (II) This device may have been added with another device file.
-[  4567.995] (II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/js0)
-[  4567.995] (II) No input driver specified, ignoring this device.
-[  4567.995] (II) This device may have been added with another device file.
-[  4567.997] (II) config/udev: Adding input device HP Wireless hotkeys (/dev/input/event12)
-[  4567.997] (**) HP Wireless hotkeys: Applying InputClass "libinput keyboard catchall"
-[  4567.997] (II) Using input driver 'libinput' for 'HP Wireless hotkeys'
-[  4567.997] (II) systemd-logind: got fd for /dev/input/event12 13:76 fd 34 paused 0
-[  4567.997] (**) HP Wireless hotkeys: always reports core events
-[  4567.997] (**) Option "Device" "/dev/input/event12"
-[  4567.997] (**) Option "_source" "server/udev"
-[  4567.998] (II) event12 - HP Wireless hotkeys: is tagged by udev as: Keyboard
-[  4567.998] (II) event12 - HP Wireless hotkeys: device is a keyboard
-[  4567.998] (II) event12 - HP Wireless hotkeys: device removed
-[  4567.998] (**) Option "config_info" "udev:/sys/devices/virtual/input/input18/event12"
-[  4567.998] (II) XINPUT: Adding extended input device "HP Wireless hotkeys" (type: KEYBOARD, id 17)
-[  4567.998] (**) Option "xkb_model" "pc105"
-[  4567.998] (**) Option "xkb_layout" "us"
-[  4567.999] (II) event12 - HP Wireless hotkeys: is tagged by udev as: Keyboard
-[  4567.999] (II) event12 - HP Wireless hotkeys: device is a keyboard
-[  4567.999] (II) config/udev: Adding input device HP WMI hotkeys (/dev/input/event14)
-[  4567.999] (**) HP WMI hotkeys: Applying InputClass "libinput keyboard catchall"
-[  4567.999] (II) Using input driver 'libinput' for 'HP WMI hotkeys'
-[  4568.000] (II) systemd-logind: got fd for /dev/input/event14 13:78 fd 35 paused 0
-[  4568.000] (**) HP WMI hotkeys: always reports core events
-[  4568.000] (**) Option "Device" "/dev/input/event14"
-[  4568.000] (**) Option "_source" "server/udev"
-[  4568.001] (II) event14 - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
-[  4568.001] (II) event14 - HP WMI hotkeys: device is a keyboard
-[  4568.001] (II) event14 - HP WMI hotkeys: device removed
-[  4568.001] (**) Option "config_info" "udev:/sys/devices/virtual/input/input19/event14"
-[  4568.001] (II) XINPUT: Adding extended input device "HP WMI hotkeys" (type: KEYBOARD, id 18)
-[  4568.001] (**) Option "xkb_model" "pc105"
-[  4568.001] (**) Option "xkb_layout" "us"
-[  4568.001] (II) event14 - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
-[  4568.001] (II) event14 - HP WMI hotkeys: device is a keyboard
-[  4568.005] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[  4568.005] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[  4568.005] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[  4568.005] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[  4568.005] (**) Option "Device" "/dev/input/event8"
-[  4568.005] (**) Option "_source" "_driver/libinput"
-[  4568.005] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[  4568.005] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input14/event8"
-[  4568.005] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 19)
-[  4568.005] (**) Option "xkb_model" "pc105"
-[  4568.005] (**) Option "xkb_layout" "us"
-[  4568.354] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4568.354] (II) modeset(0): Printing DDC gathered Modelines:
-[  4568.354] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4568.354] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4597.233] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
-[  4597.233] (**) Option "fd" "26"
-[  4597.233] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[  4597.234] (II) UnloadModule: "libinput"
-[  4597.234] (II) systemd-logind: releasing fd for 13:70
-[  4597.302] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
-[  4597.302] (**) Option "fd" "27"
-[  4597.302] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[  4597.307] (II) UnloadModule: "libinput"
-[  4597.307] (II) systemd-logind: releasing fd for 13:71
-[  4597.355] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[  4597.355] (**) Option "fd" "28"
-[  4597.357] (II) UnloadModule: "libinput"
-[  4597.358] (II) systemd-logind: not releasing fd for 13:72, still in use
-[  4597.358] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[  4597.358] (**) Option "fd" "28"
-[  4597.358] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[  4597.358] (II) UnloadModule: "libinput"
-[  4597.358] (II) systemd-logind: releasing fd for 13:72
-[  4597.390] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
-[  4597.390] (**) Option "fd" "29"
-[  4597.390] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[  4597.391] (II) UnloadModule: "libinput"
-[  4597.391] (II) systemd-logind: releasing fd for 13:73
-[  4709.770] (EE) client bug: timer event11 tap: offset negative (-3411ms)
-[  4739.126] (II) modeset(0): Allocate new frame buffer 768x1366 stride
-[  4739.244] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4739.244] (II) modeset(0): Printing DDC gathered Modelines:
-[  4739.244] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4739.244] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4744.448] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[  4744.448] (II) No input driver specified, ignoring this device.
-[  4744.448] (II) This device may have been added with another device file.
-[  4744.468] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[  4744.468] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[  4744.468] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[  4744.470] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 49 paused 0
-[  4744.470] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[  4744.470] (**) Option "Device" "/dev/input/event6"
-[  4744.470] (**) Option "_source" "server/udev"
-[  4744.471] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[  4744.471] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[  4744.471] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[  4744.471] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.0003/input/input35/event6"
-[  4744.471] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
-[  4744.471] (**) Option "xkb_model" "pc105"
-[  4744.471] (**) Option "xkb_layout" "us"
-[  4744.471] (WW) Option "xkb_variant" requires a string value
-[  4744.471] (WW) Option "xkb_options" requires a string value
-[  4744.472] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[  4744.472] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[  4744.519] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[  4744.519] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[  4744.519] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[  4744.520] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 50 paused 0
-[  4744.520] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[  4744.520] (**) Option "Device" "/dev/input/event8"
-[  4744.520] (**) Option "_source" "server/udev"
-[  4744.521] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[  4744.521] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[  4744.521] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[  4744.521] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[  4744.521] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0004/input/input37/event8"
-[  4744.521] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 10)
-[  4744.522] (**) Option "AccelerationScheme" "none"
-[  4744.523] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[  4744.523] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[  4744.523] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[  4744.524] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[  4744.524] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[  4744.524] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[  4744.524] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[  4744.524] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[  4744.524] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[  4744.524] (**) Option "Device" "/dev/input/event8"
-[  4744.525] (**) Option "_source" "_driver/libinput"
-[  4744.525] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[  4744.525] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0004/input/input37/event8"
-[  4744.525] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 11)
-[  4744.525] (**) Option "xkb_model" "pc105"
-[  4744.525] (**) Option "xkb_layout" "us"
-[  4744.525] (WW) Option "xkb_variant" requires a string value
-[  4744.525] (WW) Option "xkb_options" requires a string value
-[  4744.526] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[  4744.526] (II) No input driver specified, ignoring this device.
-[  4744.526] (II) This device may have been added with another device file.
-[  4744.526] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[  4744.527] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[  4744.527] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[  4744.527] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 51 paused 0
-[  4744.527] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[  4744.527] (**) Option "Device" "/dev/input/event9"
-[  4744.527] (**) Option "_source" "server/udev"
-[  4744.528] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[  4744.528] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[  4744.528] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[  4744.528] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0004/input/input38/event9"
-[  4744.528] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[  4744.528] (**) Option "xkb_model" "pc105"
-[  4744.528] (**) Option "xkb_layout" "us"
-[  4744.528] (WW) Option "xkb_variant" requires a string value
-[  4744.528] (WW) Option "xkb_options" requires a string value
-[  4744.529] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[  4744.529] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[  4744.530] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[  4744.530] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[  4744.530] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[  4744.531] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 52 paused 0
-[  4744.531] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[  4744.531] (**) Option "Device" "/dev/input/event7"
-[  4744.531] (**) Option "_source" "server/udev"
-[  4744.531] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[  4744.531] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[  4744.531] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[  4744.531] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0004/input/input36/event7"
-[  4744.531] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
-[  4744.532] (**) Option "AccelerationScheme" "none"
-[  4744.533] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[  4744.533] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[  4744.533] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[  4744.533] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[  4744.533] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[  4792.076] (II) modeset(0): Allocate new frame buffer 1366x768 stride
-[  4792.925] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: SYN_DROPPED event - some input events have been lost.
-[  4793.011] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4793.011] (II) modeset(0): Printing DDC gathered Modelines:
-[  4793.011] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4793.011] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4796.710] (II) modeset(0): Allocate new frame buffer 768x1366 stride
-[  4797.648] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4797.649] (II) modeset(0): Printing DDC gathered Modelines:
-[  4797.649] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4797.649] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4823.741] (II) modeset(0): Allocate new frame buffer 1366x768 stride
-[  4824.667] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4824.667] (II) modeset(0): Printing DDC gathered Modelines:
-[  4824.667] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4824.667] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4862.497] (II) modeset(0): Allocate new frame buffer 768x1366 stride
-[  4863.399] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4863.399] (II) modeset(0): Printing DDC gathered Modelines:
-[  4863.399] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4863.399] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  4871.657] (II) modeset(0): Allocate new frame buffer 1366x768 stride
-[  4872.583] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[  4872.583] (II) modeset(0): Printing DDC gathered Modelines:
-[  4872.583] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[  4872.583] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[  9053.395] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
-[  9053.396] (**) Option "fd" "49"
-[  9053.396] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[  9053.401] (II) UnloadModule: "libinput"
-[  9053.401] (II) systemd-logind: releasing fd for 13:70
-[  9053.402] (EE) systemd-logind: failed to release device: Device not taken
-[  9053.425] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
-[  9053.426] (**) Option "fd" "52"
-[  9053.426] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[  9053.432] (II) UnloadModule: "libinput"
-[  9053.432] (II) systemd-logind: releasing fd for 13:71
-[  9053.432] (EE) systemd-logind: failed to release device: Device not taken
-[  9053.449] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[  9053.449] (**) Option "fd" "50"
-[  9053.455] (II) UnloadModule: "libinput"
-[  9053.455] (II) systemd-logind: not releasing fd for 13:72, still in use
-[  9053.455] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[  9053.455] (**) Option "fd" "50"
-[  9053.455] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[  9053.459] (II) UnloadModule: "libinput"
-[  9053.459] (II) systemd-logind: releasing fd for 13:72
-[  9053.460] (EE) systemd-logind: failed to release device: Device not taken
-[  9053.480] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
-[  9053.481] (**) Option "fd" "51"
-[  9053.481] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[  9053.485] (II) UnloadModule: "libinput"
-[  9053.485] (II) systemd-logind: releasing fd for 13:73
-[  9053.486] (EE) systemd-logind: failed to release device: Device not taken
-[ 10347.357] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[ 10347.357] (II) No input driver specified, ignoring this device.
-[ 10347.357] (II) This device may have been added with another device file.
-[ 10347.399] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[ 10347.399] (II) No input driver specified, ignoring this device.
-[ 10347.399] (II) This device may have been added with another device file.
-[ 10347.401] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[ 10347.402] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 10347.403] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 10347.405] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 51 paused 0
-[ 10347.405] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 10347.406] (**) Option "Device" "/dev/input/event8"
-[ 10347.407] (**) Option "_source" "server/udev"
-[ 10347.414] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 10347.414] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 10347.414] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 10347.415] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[ 10347.415] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0006/input/input50/event8"
-[ 10347.415] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 9)
-[ 10347.417] (**) Option "AccelerationScheme" "none"
-[ 10347.418] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[ 10347.418] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[ 10347.418] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[ 10347.418] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 10347.418] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 10347.420] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 10347.420] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 10347.420] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[ 10347.420] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 10347.420] (**) Option "Device" "/dev/input/event8"
-[ 10347.420] (**) Option "_source" "_driver/libinput"
-[ 10347.420] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[ 10347.420] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0006/input/input50/event8"
-[ 10347.420] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 10)
-[ 10347.420] (**) Option "xkb_model" "pc105"
-[ 10347.420] (**) Option "xkb_layout" "us"
-[ 10347.420] (WW) Option "xkb_variant" requires a string value
-[ 10347.420] (WW) Option "xkb_options" requires a string value
-[ 10347.421] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[ 10347.421] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[ 10347.421] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[ 10347.424] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 52 paused 0
-[ 10347.424] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[ 10347.424] (**) Option "Device" "/dev/input/event6"
-[ 10347.424] (**) Option "_source" "server/udev"
-[ 10347.425] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 10347.425] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 10347.425] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 10347.425] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.0005/input/input48/event6"
-[ 10347.425] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 11)
-[ 10347.425] (**) Option "xkb_model" "pc105"
-[ 10347.425] (**) Option "xkb_layout" "us"
-[ 10347.425] (WW) Option "xkb_variant" requires a string value
-[ 10347.425] (WW) Option "xkb_options" requires a string value
-[ 10347.426] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 10347.426] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 10347.428] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[ 10347.428] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[ 10347.428] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[ 10347.429] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 53 paused 0
-[ 10347.429] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[ 10347.429] (**) Option "Device" "/dev/input/event9"
-[ 10347.429] (**) Option "_source" "server/udev"
-[ 10347.430] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 10347.430] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 10347.430] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 10347.430] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0006/input/input51/event9"
-[ 10347.430] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[ 10347.430] (**) Option "xkb_model" "pc105"
-[ 10347.430] (**) Option "xkb_layout" "us"
-[ 10347.430] (WW) Option "xkb_variant" requires a string value
-[ 10347.430] (WW) Option "xkb_options" requires a string value
-[ 10347.432] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 10347.432] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 10347.433] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[ 10347.433] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[ 10347.434] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[ 10347.435] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 62 paused 0
-[ 10347.436] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[ 10347.436] (**) Option "Device" "/dev/input/event7"
-[ 10347.436] (**) Option "_source" "server/udev"
-[ 10347.439] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 10347.439] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 10347.439] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 10347.439] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0006/input/input49/event7"
-[ 10347.439] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
-[ 10347.439] (**) Option "AccelerationScheme" "none"
-[ 10347.440] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[ 10347.440] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[ 10347.440] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[ 10347.441] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 10347.441] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 21175.951] (EE) client bug: timer event7 debounce: offset negative (-148ms)
-[ 21175.952] (EE) client bug: timer event7 debounce short: offset negative (-162ms)
-[ 26823.983] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: SYN_DROPPED event - some input events have been lost.
-[ 28713.257] (EE) client bug: timer event7 debounce: offset negative (-1734ms)
-[ 28713.257] (EE) client bug: timer event7 debounce short: offset negative (-1747ms)
-[ 28713.257] (EE) client bug: timer event7 debounce: offset negative (-1734ms)
-[ 28713.257] (EE) client bug: timer event7 debounce short: offset negative (-1747ms)
-[ 28744.201] (EE) client bug: timer event7 debounce: offset negative (-1733ms)
-[ 28744.201] (EE) client bug: timer event7 debounce short: offset negative (-1746ms)
-[ 28775.829] (EE) client bug: timer event7 debounce: offset negative (-1765ms)
-[ 28775.829] (EE) client bug: timer event7 debounce short: offset negative (-1778ms)
-[ 28933.811] (EE) client bug: timer event7 debounce: offset negative (-1741ms)
-[ 28933.811] (EE) client bug: timer event7 debounce short: offset negative (-1754ms)
-[ 29058.932] (EE) client bug: timer event7 debounce: offset negative (-1738ms)
-[ 29058.932] (EE) client bug: timer event7 debounce short: offset negative (-1751ms)
-[ 29247.908] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: SYN_DROPPED event - some input events have been lost.
-[ 29247.908] (EE) client bug: timer event7 debounce: offset negative (-199ms)
-[ 34116.263] (EE) client bug: timer event7 debounce: offset negative (-57ms)
-[ 38220.030] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[ 38220.030] (II) modeset(0): Printing DDC gathered Modelines:
-[ 38220.031] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[ 38220.031] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[ 49829.955] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
-[ 49829.959] (**) Option "fd" "52"
-[ 49829.960] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 49829.970] (II) UnloadModule: "libinput"
-[ 49829.970] (II) systemd-logind: releasing fd for 13:70
-[ 49830.019] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
-[ 49830.020] (**) Option "fd" "62"
-[ 49830.021] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 49830.046] (II) UnloadModule: "libinput"
-[ 49830.047] (II) systemd-logind: releasing fd for 13:71
-[ 49830.048] (EE) systemd-logind: failed to release device: Device not taken
-[ 49830.072] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 49830.072] (**) Option "fd" "51"
-[ 49830.081] (II) UnloadModule: "libinput"
-[ 49830.081] (II) systemd-logind: not releasing fd for 13:72, still in use
-[ 49830.081] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 49830.081] (**) Option "fd" "51"
-[ 49830.081] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 49830.088] (II) UnloadModule: "libinput"
-[ 49830.089] (II) systemd-logind: releasing fd for 13:72
-[ 49830.090] (EE) systemd-logind: failed to release device: Device not taken
-[ 49830.125] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
-[ 49830.125] (**) Option "fd" "53"
-[ 49830.126] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 49830.129] (II) UnloadModule: "libinput"
-[ 49830.129] (II) systemd-logind: releasing fd for 13:73
-[ 49831.957] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[ 49831.958] (II) No input driver specified, ignoring this device.
-[ 49831.958] (II) This device may have been added with another device file.
-[ 49831.978] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[ 49831.978] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[ 49831.978] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[ 49831.979] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 51 paused 0
-[ 49831.979] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[ 49831.979] (**) Option "Device" "/dev/input/event6"
-[ 49831.979] (**) Option "_source" "server/udev"
-[ 49831.980] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 49831.980] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 49831.980] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 49831.980] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.0007/input/input405/event6"
-[ 49831.980] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
-[ 49831.980] (**) Option "xkb_model" "pc105"
-[ 49831.980] (**) Option "xkb_layout" "us"
-[ 49831.980] (WW) Option "xkb_variant" requires a string value
-[ 49831.980] (WW) Option "xkb_options" requires a string value
-[ 49831.982] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 49831.983] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 49831.998] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[ 49831.998] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 49831.998] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 49832.000] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 52 paused 0
-[ 49832.000] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 49832.000] (**) Option "Device" "/dev/input/event8"
-[ 49832.001] (**) Option "_source" "server/udev"
-[ 49832.002] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 49832.002] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 49832.002] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 49832.002] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[ 49832.002] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0008/input/input407/event8"
-[ 49832.002] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 10)
-[ 49832.004] (**) Option "AccelerationScheme" "none"
-[ 49832.005] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[ 49832.005] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[ 49832.005] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[ 49832.006] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 49832.006] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 49832.007] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 49832.007] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 49832.007] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[ 49832.007] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 49832.007] (**) Option "Device" "/dev/input/event8"
-[ 49832.007] (**) Option "_source" "_driver/libinput"
-[ 49832.007] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[ 49832.007] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0008/input/input407/event8"
-[ 49832.007] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 11)
-[ 49832.007] (**) Option "xkb_model" "pc105"
-[ 49832.007] (**) Option "xkb_layout" "us"
-[ 49832.007] (WW) Option "xkb_variant" requires a string value
-[ 49832.007] (WW) Option "xkb_options" requires a string value
-[ 49832.009] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[ 49832.009] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[ 49832.009] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[ 49832.009] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 53 paused 0
-[ 49832.009] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[ 49832.009] (**) Option "Device" "/dev/input/event9"
-[ 49832.011] (**) Option "_source" "server/udev"
-[ 49832.012] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 49832.012] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 49832.012] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 49832.012] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0008/input/input408/event9"
-[ 49832.012] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[ 49832.012] (**) Option "xkb_model" "pc105"
-[ 49832.012] (**) Option "xkb_layout" "us"
-[ 49832.012] (WW) Option "xkb_variant" requires a string value
-[ 49832.012] (WW) Option "xkb_options" requires a string value
-[ 49832.013] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 49832.013] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 49832.015] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[ 49832.015] (II) No input driver specified, ignoring this device.
-[ 49832.015] (II) This device may have been added with another device file.
-[ 49832.030] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[ 49832.030] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[ 49832.030] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[ 49832.032] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 62 paused 0
-[ 49832.032] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[ 49832.032] (**) Option "Device" "/dev/input/event7"
-[ 49832.032] (**) Option "_source" "server/udev"
-[ 49832.032] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 49832.032] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 49832.032] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 49832.032] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0008/input/input406/event7"
-[ 49832.032] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
-[ 49832.034] (**) Option "AccelerationScheme" "none"
-[ 49832.036] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[ 49832.036] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[ 49832.036] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[ 49832.036] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 49832.037] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 49852.809] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
-[ 49852.809] (**) Option "fd" "51"
-[ 49852.809] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 49852.816] (II) UnloadModule: "libinput"
-[ 49852.817] (II) systemd-logind: releasing fd for 13:70
-[ 49852.883] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
-[ 49852.883] (**) Option "fd" "62"
-[ 49852.883] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 49852.888] (II) UnloadModule: "libinput"
-[ 49852.888] (II) systemd-logind: releasing fd for 13:71
-[ 49852.931] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 49852.931] (**) Option "fd" "52"
-[ 49852.939] (II) UnloadModule: "libinput"
-[ 49852.939] (II) systemd-logind: not releasing fd for 13:72, still in use
-[ 49852.939] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 49852.939] (**) Option "fd" "52"
-[ 49852.939] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 49852.942] (II) UnloadModule: "libinput"
-[ 49852.942] (II) systemd-logind: releasing fd for 13:72
-[ 49852.972] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
-[ 49852.972] (**) Option "fd" "53"
-[ 49852.972] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 49852.975] (II) UnloadModule: "libinput"
-[ 49852.975] (II) systemd-logind: releasing fd for 13:73
-[ 49893.398] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[ 49893.398] (II) No input driver specified, ignoring this device.
-[ 49893.398] (II) This device may have been added with another device file.
-[ 49893.433] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[ 49893.433] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[ 49893.433] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[ 49893.434] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 50 paused 0
-[ 49893.434] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[ 49893.434] (**) Option "Device" "/dev/input/event6"
-[ 49893.434] (**) Option "_source" "server/udev"
-[ 49893.435] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 49893.435] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 49893.435] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 49893.435] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.0009/input/input414/event6"
-[ 49893.435] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
-[ 49893.435] (**) Option "xkb_model" "pc105"
-[ 49893.435] (**) Option "xkb_layout" "us"
-[ 49893.435] (WW) Option "xkb_variant" requires a string value
-[ 49893.435] (WW) Option "xkb_options" requires a string value
-[ 49893.439] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 49893.439] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 49893.456] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[ 49893.456] (II) No input driver specified, ignoring this device.
-[ 49893.456] (II) This device may have been added with another device file.
-[ 49893.462] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[ 49893.462] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 49893.462] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 49893.465] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 51 paused 0
-[ 49893.465] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 49893.465] (**) Option "Device" "/dev/input/event8"
-[ 49893.465] (**) Option "_source" "server/udev"
-[ 49893.465] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 49893.465] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 49893.465] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 49893.466] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[ 49893.466] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000A/input/input416/event8"
-[ 49893.466] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 10)
-[ 49893.468] (**) Option "AccelerationScheme" "none"
-[ 49893.471] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[ 49893.472] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[ 49893.472] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[ 49893.472] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 49893.473] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 49893.474] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 49893.474] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 49893.474] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[ 49893.474] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 49893.474] (**) Option "Device" "/dev/input/event8"
-[ 49893.474] (**) Option "_source" "_driver/libinput"
-[ 49893.474] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[ 49893.474] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000A/input/input416/event8"
-[ 49893.474] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 11)
-[ 49893.474] (**) Option "xkb_model" "pc105"
-[ 49893.474] (**) Option "xkb_layout" "us"
-[ 49893.474] (WW) Option "xkb_variant" requires a string value
-[ 49893.474] (WW) Option "xkb_options" requires a string value
-[ 49893.477] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[ 49893.477] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[ 49893.477] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[ 49893.478] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 52 paused 0
-[ 49893.478] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[ 49893.478] (**) Option "Device" "/dev/input/event9"
-[ 49893.478] (**) Option "_source" "server/udev"
-[ 49893.479] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 49893.479] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 49893.479] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 49893.479] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000A/input/input417/event9"
-[ 49893.479] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[ 49893.479] (**) Option "xkb_model" "pc105"
-[ 49893.479] (**) Option "xkb_layout" "us"
-[ 49893.479] (WW) Option "xkb_variant" requires a string value
-[ 49893.479] (WW) Option "xkb_options" requires a string value
-[ 49893.480] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 49893.480] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 49893.481] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[ 49893.481] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[ 49893.481] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[ 49893.482] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 53 paused 0
-[ 49893.482] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[ 49893.482] (**) Option "Device" "/dev/input/event7"
-[ 49893.482] (**) Option "_source" "server/udev"
-[ 49893.482] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 49893.482] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 49893.482] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 49893.482] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000A/input/input415/event7"
-[ 49893.482] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
-[ 49893.483] (**) Option "AccelerationScheme" "none"
-[ 49893.484] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[ 49893.484] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[ 49893.484] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[ 49893.484] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 49893.484] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 49908.198] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
-[ 49908.198] (**) Option "fd" "50"
-[ 49908.198] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 49908.205] (II) UnloadModule: "libinput"
-[ 49908.205] (II) systemd-logind: releasing fd for 13:70
-[ 49908.270] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
-[ 49908.270] (**) Option "fd" "53"
-[ 49908.270] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 49908.277] (II) UnloadModule: "libinput"
-[ 49908.277] (II) systemd-logind: releasing fd for 13:71
-[ 49908.311] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 49908.311] (**) Option "fd" "51"
-[ 49908.314] (II) UnloadModule: "libinput"
-[ 49908.314] (II) systemd-logind: not releasing fd for 13:72, still in use
-[ 49908.314] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 49908.314] (**) Option "fd" "51"
-[ 49908.314] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 49908.318] (II) UnloadModule: "libinput"
-[ 49908.318] (II) systemd-logind: releasing fd for 13:72
-[ 49908.358] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
-[ 49908.359] (**) Option "fd" "52"
-[ 49908.359] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 49908.362] (II) UnloadModule: "libinput"
-[ 49908.362] (II) systemd-logind: releasing fd for 13:73
-[ 49909.926] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[ 49909.926] (II) No input driver specified, ignoring this device.
-[ 49909.926] (II) This device may have been added with another device file.
-[ 49909.947] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[ 49909.947] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[ 49909.947] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[ 49909.949] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 50 paused 0
-[ 49909.950] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[ 49909.950] (**) Option "Device" "/dev/input/event6"
-[ 49909.950] (**) Option "_source" "server/udev"
-[ 49909.952] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 49909.952] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 49909.952] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 49909.952] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.000B/input/input419/event6"
-[ 49909.953] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
-[ 49909.953] (**) Option "xkb_model" "pc105"
-[ 49909.953] (**) Option "xkb_layout" "us"
-[ 49909.953] (WW) Option "xkb_variant" requires a string value
-[ 49909.954] (WW) Option "xkb_options" requires a string value
-[ 49909.958] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 49909.958] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 49909.967] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[ 49909.967] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 49909.967] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 49909.969] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 51 paused 0
-[ 49909.969] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 49909.969] (**) Option "Device" "/dev/input/event8"
-[ 49909.969] (**) Option "_source" "server/udev"
-[ 49909.970] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 49909.970] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 49909.970] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 49909.970] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[ 49909.970] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000C/input/input421/event8"
-[ 49909.970] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 10)
-[ 49909.970] (**) Option "AccelerationScheme" "none"
-[ 49909.971] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[ 49909.971] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[ 49909.971] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[ 49909.971] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 49909.971] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 49909.972] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 49909.972] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 49909.972] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[ 49909.972] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 49909.972] (**) Option "Device" "/dev/input/event8"
-[ 49909.972] (**) Option "_source" "_driver/libinput"
-[ 49909.972] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[ 49909.972] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000C/input/input421/event8"
-[ 49909.972] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 11)
-[ 49909.972] (**) Option "xkb_model" "pc105"
-[ 49909.972] (**) Option "xkb_layout" "us"
-[ 49909.972] (WW) Option "xkb_variant" requires a string value
-[ 49909.972] (WW) Option "xkb_options" requires a string value
-[ 49909.985] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[ 49909.985] (II) No input driver specified, ignoring this device.
-[ 49909.985] (II) This device may have been added with another device file.
-[ 49909.986] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[ 49909.986] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[ 49909.986] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[ 49909.987] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 52 paused 0
-[ 49909.987] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[ 49909.987] (**) Option "Device" "/dev/input/event9"
-[ 49909.987] (**) Option "_source" "server/udev"
-[ 49909.988] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 49909.989] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 49909.989] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 49909.989] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000C/input/input422/event9"
-[ 49909.989] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[ 49909.989] (**) Option "xkb_model" "pc105"
-[ 49909.989] (**) Option "xkb_layout" "us"
-[ 49909.989] (WW) Option "xkb_variant" requires a string value
-[ 49909.989] (WW) Option "xkb_options" requires a string value
-[ 49909.991] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 49909.991] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 49909.993] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[ 49909.993] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[ 49909.993] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[ 49909.994] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 53 paused 0
-[ 49909.994] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[ 49909.994] (**) Option "Device" "/dev/input/event7"
-[ 49909.994] (**) Option "_source" "server/udev"
-[ 49909.995] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 49909.995] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 49909.995] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 49909.995] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000C/input/input420/event7"
-[ 49909.995] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
-[ 49909.996] (**) Option "AccelerationScheme" "none"
-[ 49909.997] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[ 49909.997] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[ 49909.997] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[ 49909.998] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 49909.998] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 50365.435] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: SYN_DROPPED event - some input events have been lost.
-[ 54757.034] (II) modeset(0): EDID vendor "BOE", prod id 1687
-[ 54757.034] (II) modeset(0): Printing DDC gathered Modelines:
-[ 54757.034] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
-[ 54757.034] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
-[ 55511.981] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
-[ 55511.982] (**) Option "fd" "50"
-[ 55511.982] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 55511.984] (II) UnloadModule: "libinput"
-[ 55511.984] (II) systemd-logind: releasing fd for 13:70
-[ 55512.064] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
-[ 55512.064] (**) Option "fd" "53"
-[ 55512.064] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 55512.075] (II) UnloadModule: "libinput"
-[ 55512.075] (II) systemd-logind: releasing fd for 13:71
-[ 55512.109] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 55512.109] (**) Option "fd" "51"
-[ 55512.122] (II) UnloadModule: "libinput"
-[ 55512.123] (II) systemd-logind: not releasing fd for 13:72, still in use
-[ 55512.123] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
-[ 55512.123] (**) Option "fd" "51"
-[ 55512.124] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 55512.129] (II) UnloadModule: "libinput"
-[ 55512.130] (II) systemd-logind: releasing fd for 13:72
-[ 55512.172] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
-[ 55512.172] (**) Option "fd" "52"
-[ 55512.172] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 55512.177] (II) UnloadModule: "libinput"
-[ 55512.177] (II) systemd-logind: releasing fd for 13:73
-[ 55514.259] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
-[ 55514.260] (II) No input driver specified, ignoring this device.
-[ 55514.260] (II) This device may have been added with another device file.
-[ 55514.284] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
-[ 55514.285] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
-[ 55514.285] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
-[ 55514.287] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 50 paused 0
-[ 55514.288] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
-[ 55514.288] (**) Option "Device" "/dev/input/event6"
-[ 55514.289] (**) Option "_source" "server/udev"
-[ 55514.289] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 55514.289] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 55514.290] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
-[ 55514.290] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.000D/input/input424/event6"
-[ 55514.290] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
-[ 55514.290] (**) Option "xkb_model" "pc105"
-[ 55514.290] (**) Option "xkb_layout" "us"
-[ 55514.290] (WW) Option "xkb_variant" requires a string value
-[ 55514.290] (WW) Option "xkb_options" requires a string value
-[ 55514.293] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
-[ 55514.293] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
-[ 55514.313] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
-[ 55514.313] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 55514.313] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 55514.314] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 51 paused 0
-[ 55514.314] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 55514.314] (**) Option "Device" "/dev/input/event8"
-[ 55514.314] (**) Option "_source" "server/udev"
-[ 55514.315] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 55514.315] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 55514.315] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
-[ 55514.315] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
-[ 55514.315] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input426/event8"
-[ 55514.315] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 10)
-[ 55514.318] (**) Option "AccelerationScheme" "none"
-[ 55514.320] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
-[ 55514.320] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
-[ 55514.320] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
-[ 55514.321] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
-[ 55514.321] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
-[ 55514.323] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
-[ 55514.323] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
-[ 55514.323] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
-[ 55514.323] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
-[ 55514.323] (**) Option "Device" "/dev/input/event8"
-[ 55514.323] (**) Option "_source" "_driver/libinput"
-[ 55514.323] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
-[ 55514.323] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input426/event8"
-[ 55514.323] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 11)
-[ 55514.323] (**) Option "xkb_model" "pc105"
-[ 55514.323] (**) Option "xkb_layout" "us"
-[ 55514.323] (WW) Option "xkb_variant" requires a string value
-[ 55514.323] (WW) Option "xkb_options" requires a string value
-[ 55514.325] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
-[ 55514.325] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
-[ 55514.325] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
-[ 55514.328] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 52 paused 0
-[ 55514.328] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
-[ 55514.329] (**) Option "Device" "/dev/input/event9"
-[ 55514.329] (**) Option "_source" "server/udev"
-[ 55514.330] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 55514.330] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 55514.330] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
-[ 55514.330] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input427/event9"
-[ 55514.330] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
-[ 55514.330] (**) Option "xkb_model" "pc105"
-[ 55514.330] (**) Option "xkb_layout" "us"
-[ 55514.330] (WW) Option "xkb_variant" requires a string value
-[ 55514.330] (WW) Option "xkb_options" requires a string value
-[ 55514.332] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
-[ 55514.332] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
-[ 55514.334] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
-[ 55514.334] (II) No input driver specified, ignoring this device.
-[ 55514.334] (II) This device may have been added with another device file.
-[ 55514.336] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
-[ 55514.336] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
-[ 55514.336] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
-[ 55514.338] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 53 paused 0
-[ 55514.338] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
-[ 55514.338] (**) Option "Device" "/dev/input/event7"
-[ 55514.338] (**) Option "_source" "server/udev"
-[ 55514.341] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 55514.341] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
-[ 55514.341] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
-[ 55514.341] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input425/event7"
-[ 55514.341] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
-[ 55514.342] (**) Option "AccelerationScheme" "none"
-[ 55514.344] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
-[ 55514.344] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
-[ 55514.344] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
-[ 55514.344] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
-[ 55514.345] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
+[    14.278] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    14.278] (==) modeset(0): RGB weight 888
+[    14.278] (==) modeset(0): Default visual is TrueColor
+[    14.278] (II) Loading sub module "glamoregl"
+[    14.278] (II) LoadModule: "glamoregl"
+[    14.278] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    14.295] (II) Module glamoregl: vendor="X.Org Foundation"
+[    14.295] 	compiled for 1.20.8, module version = 1.0.1
+[    14.295] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    14.395] (II) modeset(0): glamor X acceleration enabled on Mesa DRI Intel(R) HD Graphics 520 (SKL GT2)
+[    14.395] (II) modeset(0): glamor initialized
+[    14.396] (II) modeset(0): Output eDP-1 has no monitor section
+[    14.396] (II) modeset(0): Output DP-1 has no monitor section
+[    14.399] (II) modeset(0): Output HDMI-1 has no monitor section
+[    14.400] (II) modeset(0): Output DP-2 has no monitor section
+[    14.403] (II) modeset(0): Output HDMI-2 has no monitor section
+[    14.404] (II) modeset(0): EDID for output eDP-1
+[    14.404] (II) modeset(0): Manufacturer: BOE  Model: 697  Serial#: 0
+[    14.404] (II) modeset(0): Year: 2015  Week: 1
+[    14.404] (II) modeset(0): EDID Version: 1.4
+[    14.404] (II) modeset(0): Digital Display Input
+[    14.404] (II) modeset(0): 6 bits per channel
+[    14.404] (II) modeset(0): Digital interface is DisplayPort
+[    14.404] (II) modeset(0): Max Image Size [cm]: horiz.: 31  vert.: 17
+[    14.404] (II) modeset(0): Gamma: 2.20
+[    14.404] (II) modeset(0): No DPMS capabilities specified
+[    14.404] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    14.404] (II) modeset(0): First detailed timing is preferred mode
+[    14.404] (II) modeset(0): Preferred mode is native pixel format and refresh rate
+[    14.404] (II) modeset(0): redX: 0.590 redY: 0.350   greenX: 0.329 greenY: 0.555
+[    14.404] (II) modeset(0): blueX: 0.152 blueY: 0.118   whiteX: 0.312 whiteY: 0.328
+[    14.404] (II) modeset(0): Manufacturer's mask: 0
+[    14.404] (II) modeset(0): Supported detailed timing:
+[    14.404] (II) modeset(0): clock: 70.1 MHz   Image Size:  309 x 173 mm
+[    14.404] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1498 h_border: 0
+[    14.404] (II) modeset(0): v_active: 768  v_sync: 772  v_sync_end 776 v_blanking: 780 v_border: 0
+[    14.404] (II) modeset(0): Supported detailed timing:
+[    14.404] (II) modeset(0): clock: 46.7 MHz   Image Size:  309 x 173 mm
+[    14.404] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1498 h_border: 0
+[    14.404] (II) modeset(0): v_active: 768  v_sync: 772  v_sync_end 776 v_blanking: 780 v_border: 0
+[    14.404] (II) modeset(0): Unknown vendor-specific block 2
+[    14.404] (II) modeset(0): EDID (in hex):
+[    14.404] (II) modeset(0): 	00ffffffffffff0009e5970600000000
+[    14.404] (II) modeset(0): 	01190104951f11780a24109759548e27
+[    14.405] (II) modeset(0): 	1e505400000001010101010101010101
+[    14.405] (II) modeset(0): 	010101010101641b568450000c303020
+[    14.405] (II) modeset(0): 	440035ad1000001a3e12568450000c30
+[    14.405] (II) modeset(0): 	3020440035ad1000001a000000000000
+[    14.405] (II) modeset(0): 	00000000000000000000000000000002
+[    14.405] (II) modeset(0): 	000c46f90b3c6e0b0f19700000000096
+[    14.405] (II) modeset(0): Printing probed modes for output eDP-1
+[    14.405] (II) modeset(0): Modeline "1366x768"x60.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
+[    14.405] (II) modeset(0): Modeline "1366x768"x40.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
+[    14.405] (II) modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
+[    14.405] (II) modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
+[    14.405] (II) modeset(0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[    14.405] (II) modeset(0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[    14.405] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[    14.405] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[    14.405] (II) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    14.405] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    14.405] (II) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    14.405] (II) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    14.405] (II) modeset(0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[    14.405] (II) modeset(0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[    14.405] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[    14.405] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[    14.405] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[    14.405] (II) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    14.405] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[    14.405] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    14.405] (II) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    14.405] (II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    14.406] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[    14.406] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[    14.406] (II) modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+[    14.406] (II) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    14.406] (II) modeset(0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[    14.406] (II) modeset(0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    14.406] (II) modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+[    14.406] (II) modeset(0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[    14.406] (II) modeset(0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[    14.406] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[    14.406] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[    14.406] (II) modeset(0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[    14.406] (II) modeset(0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[    14.406] (II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+[    14.406] (II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[    14.406] (II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[    14.406] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[    14.406] (II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    14.406] (II) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[    14.406] (II) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[    14.406] (II) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[    14.406] (II) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[    14.406] (II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    14.406] (II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    14.406] (II) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[    14.406] (II) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[    14.406] (II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    14.406] (II) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[    14.406] (II) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[    14.406] (II) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[    14.406] (II) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[    14.406] (II) modeset(0): EDID for output DP-1
+[    14.410] (II) modeset(0): EDID for output HDMI-1
+[    14.410] (II) modeset(0): EDID for output DP-2
+[    14.413] (II) modeset(0): EDID for output HDMI-2
+[    14.413] (II) modeset(0): Output eDP-1 connected
+[    14.413] (II) modeset(0): Output DP-1 disconnected
+[    14.413] (II) modeset(0): Output HDMI-1 disconnected
+[    14.413] (II) modeset(0): Output DP-2 disconnected
+[    14.413] (II) modeset(0): Output HDMI-2 disconnected
+[    14.413] (II) modeset(0): Using exact sizes for initial modes
+[    14.413] (II) modeset(0): Output eDP-1 using initial mode 1366x768 +0+0
+[    14.413] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    14.413] (==) modeset(0): DPI set to (96, 96)
+[    14.413] (II) Loading sub module "fb"
+[    14.413] (II) LoadModule: "fb"
+[    14.414] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    14.414] (II) Module fb: vendor="X.Org Foundation"
+[    14.414] 	compiled for 1.20.8, module version = 1.0.0
+[    14.414] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    14.414] (II) UnloadModule: "fbdev"
+[    14.414] (II) Unloading fbdev
+[    14.414] (II) UnloadSubModule: "fbdevhw"
+[    14.414] (II) Unloading fbdevhw
+[    14.414] (II) UnloadModule: "vesa"
+[    14.414] (II) Unloading vesa
+[    14.453] (==) modeset(0): Backing store enabled
+[    14.453] (==) modeset(0): Silken mouse enabled
+[    14.523] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    14.523] (==) modeset(0): DPMS enabled
+[    14.524] (II) modeset(0): [DRI2] Setup complete
+[    14.524] (II) modeset(0): [DRI2]   DRI driver: i965
+[    14.524] (II) modeset(0): [DRI2]   VDPAU driver: va_gl
+[    14.524] (II) Initializing extension Generic Event Extension
+[    14.524] (II) Initializing extension SHAPE
+[    14.524] (II) Initializing extension MIT-SHM
+[    14.524] (II) Initializing extension XInputExtension
+[    14.525] (II) Initializing extension XTEST
+[    14.526] (II) Initializing extension BIG-REQUESTS
+[    14.526] (II) Initializing extension SYNC
+[    14.526] (II) Initializing extension XKEYBOARD
+[    14.526] (II) Initializing extension XC-MISC
+[    14.526] (II) Initializing extension SECURITY
+[    14.526] (II) Initializing extension XFIXES
+[    14.526] (II) Initializing extension RENDER
+[    14.526] (II) Initializing extension RANDR
+[    14.527] (II) Initializing extension COMPOSITE
+[    14.527] (II) Initializing extension DAMAGE
+[    14.527] (II) Initializing extension MIT-SCREEN-SAVER
+[    14.527] (II) Initializing extension DOUBLE-BUFFER
+[    14.527] (II) Initializing extension RECORD
+[    14.527] (II) Initializing extension DPMS
+[    14.527] (II) Initializing extension Present
+[    14.528] (II) Initializing extension DRI3
+[    14.528] (II) Initializing extension X-Resource
+[    14.528] (II) Initializing extension XVideo
+[    14.528] (II) Initializing extension XVideo-MotionCompensation
+[    14.528] (II) Initializing extension SELinux
+[    14.528] (II) SELinux: Disabled on system
+[    14.528] (II) Initializing extension GLX
+[    14.536] (II) AIGLX: Loaded and initialized i965
+[    14.536] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    14.536] (II) Initializing extension XFree86-VidModeExtension
+[    14.537] (II) Initializing extension XFree86-DGA
+[    14.537] (II) Initializing extension XFree86-DRI
+[    14.537] (II) Initializing extension DRI2
+[    14.566] (II) modeset(0): Damage tracking initialized
+[    14.566] (II) modeset(0): Setting screen physical size to 361 x 203
+[    14.642] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[    14.642] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    14.642] (II) LoadModule: "libinput"
+[    14.642] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    14.653] (II) Module libinput: vendor="X.Org Foundation"
+[    14.653] 	compiled for 1.20.1, module version = 0.28.1
+[    14.653] 	Module class: X.Org XInput Driver
+[    14.653] 	ABI class: X.Org XInput driver, version 24.1
+[    14.653] (II) Using input driver 'libinput' for 'Power Button'
+[    14.654] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 22 paused 0
+[    14.654] (**) Power Button: always reports core events
+[    14.654] (**) Option "Device" "/dev/input/event2"
+[    14.654] (**) Option "_source" "server/udev"
+[    14.655] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    14.655] (II) event2  - Power Button: device is a keyboard
+[    14.655] (II) event2  - Power Button: device removed
+[    14.655] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input2/event2"
+[    14.656] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    14.656] (**) Option "xkb_model" "pc105"
+[    14.656] (**) Option "xkb_layout" "us"
+[    14.657] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    14.657] (II) event2  - Power Button: device is a keyboard
+[    14.658] (II) config/udev: Adding input device Video Bus (/dev/input/event9)
+[    14.658] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    14.658] (II) Using input driver 'libinput' for 'Video Bus'
+[    14.659] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 25 paused 0
+[    14.659] (**) Video Bus: always reports core events
+[    14.659] (**) Option "Device" "/dev/input/event9"
+[    14.659] (**) Option "_source" "server/udev"
+[    14.660] (II) event9  - Video Bus: is tagged by udev as: Keyboard
+[    14.660] (II) event9  - Video Bus: device is a keyboard
+[    14.660] (II) event9  - Video Bus: device removed
+[    14.660] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input15/event9"
+[    14.660] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    14.660] (**) Option "xkb_model" "pc105"
+[    14.660] (**) Option "xkb_layout" "us"
+[    14.661] (II) event9  - Video Bus: is tagged by udev as: Keyboard
+[    14.661] (II) event9  - Video Bus: device is a keyboard
+[    14.662] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[    14.662] (II) No input driver specified, ignoring this device.
+[    14.662] (II) This device may have been added with another device file.
+[    14.662] (II) config/udev: Adding input device Sleep Button (/dev/input/event0)
+[    14.663] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    14.663] (II) Using input driver 'libinput' for 'Sleep Button'
+[    14.663] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 26 paused 0
+[    14.664] (**) Sleep Button: always reports core events
+[    14.664] (**) Option "Device" "/dev/input/event0"
+[    14.664] (**) Option "_source" "server/udev"
+[    14.664] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[    14.665] (II) event0  - Sleep Button: device is a keyboard
+[    14.665] (II) event0  - Sleep Button: device removed
+[    14.665] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0/event0"
+[    14.665] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+[    14.665] (**) Option "xkb_model" "pc105"
+[    14.665] (**) Option "xkb_layout" "us"
+[    14.666] (II) event0  - Sleep Button: is tagged by udev as: Keyboard
+[    14.666] (II) event0  - Sleep Button: device is a keyboard
+[    14.667] (II) config/udev: Adding input device HP HD Camera: HP HD Camera (/dev/input/event8)
+[    14.667] (**) HP HD Camera: HP HD Camera: Applying InputClass "libinput keyboard catchall"
+[    14.667] (II) Using input driver 'libinput' for 'HP HD Camera: HP HD Camera'
+[    14.668] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 27 paused 0
+[    14.668] (**) HP HD Camera: HP HD Camera: always reports core events
+[    14.668] (**) Option "Device" "/dev/input/event8"
+[    14.668] (**) Option "_source" "server/udev"
+[    14.669] (II) event8  - HP HD Camera: HP HD Camera: is tagged by udev as: Keyboard
+[    14.669] (II) event8  - HP HD Camera: HP HD Camera: device is a keyboard
+[    14.669] (II) event8  - HP HD Camera: HP HD Camera: device removed
+[    14.669] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/input/input14/event8"
+[    14.669] (II) XINPUT: Adding extended input device "HP HD Camera: HP HD Camera" (type: KEYBOARD, id 9)
+[    14.670] (**) Option "xkb_model" "pc105"
+[    14.670] (**) Option "xkb_layout" "us"
+[    14.671] (II) event8  - HP HD Camera: HP HD Camera: is tagged by udev as: Keyboard
+[    14.671] (II) event8  - HP HD Camera: HP HD Camera: device is a keyboard
+[    14.672] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event10)
+[    14.672] (II) No input driver specified, ignoring this device.
+[    14.672] (II) This device may have been added with another device file.
+[    14.672] (II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event11)
+[    14.672] (II) No input driver specified, ignoring this device.
+[    14.672] (II) This device may have been added with another device file.
+[    14.673] (II) config/udev: Adding input device HDA Intel PCH Dock Line Out (/dev/input/event12)
+[    14.673] (II) No input driver specified, ignoring this device.
+[    14.673] (II) This device may have been added with another device file.
+[    14.674] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event13)
+[    14.674] (II) No input driver specified, ignoring this device.
+[    14.674] (II) This device may have been added with another device file.
+[    14.674] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event14)
+[    14.674] (II) No input driver specified, ignoring this device.
+[    14.674] (II) This device may have been added with another device file.
+[    14.675] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event15)
+[    14.675] (II) No input driver specified, ignoring this device.
+[    14.675] (II) This device may have been added with another device file.
+[    14.675] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event16)
+[    14.675] (II) No input driver specified, ignoring this device.
+[    14.675] (II) This device may have been added with another device file.
+[    14.676] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event17)
+[    14.676] (II) No input driver specified, ignoring this device.
+[    14.676] (II) This device may have been added with another device file.
+[    14.676] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event18)
+[    14.677] (II) No input driver specified, ignoring this device.
+[    14.677] (II) This device may have been added with another device file.
+[    14.677] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[    14.677] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    14.677] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    14.678] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 28 paused 0
+[    14.679] (**) AT Translated Set 2 keyboard: always reports core events
+[    14.679] (**) Option "Device" "/dev/input/event3"
+[    14.679] (**) Option "_source" "server/udev"
+[    14.679] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    14.680] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[    14.680] (II) event3  - AT Translated Set 2 keyboard: device removed
+[    14.680] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input3/event3"
+[    14.680] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[    14.680] (**) Option "xkb_model" "pc105"
+[    14.680] (**) Option "xkb_layout" "us"
+[    14.681] (II) event3  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    14.681] (II) event3  - AT Translated Set 2 keyboard: device is a keyboard
+[    14.682] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/event4)
+[    14.682] (**) PS/2 Generic Mouse: Applying InputClass "libinput pointer catchall"
+[    14.682] (II) Using input driver 'libinput' for 'PS/2 Generic Mouse'
+[    14.683] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 29 paused 0
+[    14.683] (**) PS/2 Generic Mouse: always reports core events
+[    14.683] (**) Option "Device" "/dev/input/event4"
+[    14.683] (**) Option "_source" "server/udev"
+[    14.684] (II) event4  - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[    14.684] (II) event4  - PS/2 Generic Mouse: device is a pointer
+[    14.684] (II) event4  - PS/2 Generic Mouse: device removed
+[    14.684] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio2/input/input9/event4"
+[    14.684] (II) XINPUT: Adding extended input device "PS/2 Generic Mouse" (type: MOUSE, id 11)
+[    14.684] (**) Option "AccelerationScheme" "none"
+[    14.684] (**) PS/2 Generic Mouse: (accel) selected scheme none/0
+[    14.684] (**) PS/2 Generic Mouse: (accel) acceleration factor: 2.000
+[    14.684] (**) PS/2 Generic Mouse: (accel) acceleration threshold: 4
+[    14.685] (II) event4  - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[    14.685] (II) event4  - PS/2 Generic Mouse: device is a pointer
+[    14.686] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/mouse0)
+[    14.686] (II) No input driver specified, ignoring this device.
+[    14.686] (II) This device may have been added with another device file.
+[    14.687] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event5)
+[    14.687] (**) SynPS/2 Synaptics TouchPad: Applying InputClass "libinput touchpad catchall"
+[    14.687] (II) Using input driver 'libinput' for 'SynPS/2 Synaptics TouchPad'
+[    14.688] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 30 paused 0
+[    14.688] (**) SynPS/2 Synaptics TouchPad: always reports core events
+[    14.688] (**) Option "Device" "/dev/input/event5"
+[    14.688] (**) Option "_source" "server/udev"
+[    14.689] (II) event5  - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[    14.689] (II) event5  - SynPS/2 Synaptics TouchPad: device is a touchpad
+[    14.689] (II) event5  - SynPS/2 Synaptics TouchPad: device removed
+[    14.689] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio3/input/input10/event5"
+[    14.689] (II) XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 12)
+[    14.689] (**) Option "AccelerationScheme" "none"
+[    14.689] (**) SynPS/2 Synaptics TouchPad: (accel) selected scheme none/0
+[    14.689] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration factor: 2.000
+[    14.689] (**) SynPS/2 Synaptics TouchPad: (accel) acceleration threshold: 4
+[    14.690] (II) event5  - SynPS/2 Synaptics TouchPad: is tagged by udev as: Touchpad
+[    14.690] (II) event5  - SynPS/2 Synaptics TouchPad: device is a touchpad
+[    14.691] (II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse1)
+[    14.691] (II) No input driver specified, ignoring this device.
+[    14.691] (II) This device may have been added with another device file.
+[    14.691] (II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/event19)
+[    14.692] (II) No input driver specified, ignoring this device.
+[    14.692] (II) This device may have been added with another device file.
+[    14.692] (II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/js0)
+[    14.692] (II) No input driver specified, ignoring this device.
+[    14.692] (II) This device may have been added with another device file.
+[    14.696] (II) config/udev: Adding input device HP Wireless hotkeys (/dev/input/event6)
+[    14.696] (**) HP Wireless hotkeys: Applying InputClass "libinput keyboard catchall"
+[    14.696] (II) Using input driver 'libinput' for 'HP Wireless hotkeys'
+[    14.697] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 31 paused 0
+[    14.697] (**) HP Wireless hotkeys: always reports core events
+[    14.697] (**) Option "Device" "/dev/input/event6"
+[    14.697] (**) Option "_source" "server/udev"
+[    14.698] (II) event6  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[    14.698] (II) event6  - HP Wireless hotkeys: device is a keyboard
+[    14.698] (II) event6  - HP Wireless hotkeys: device removed
+[    14.698] (**) Option "config_info" "udev:/sys/devices/virtual/input/input12/event6"
+[    14.698] (II) XINPUT: Adding extended input device "HP Wireless hotkeys" (type: KEYBOARD, id 13)
+[    14.698] (**) Option "xkb_model" "pc105"
+[    14.698] (**) Option "xkb_layout" "us"
+[    14.699] (II) event6  - HP Wireless hotkeys: is tagged by udev as: Keyboard
+[    14.699] (II) event6  - HP Wireless hotkeys: device is a keyboard
+[    14.700] (II) config/udev: Adding input device HP WMI hotkeys (/dev/input/event7)
+[    14.700] (**) HP WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    14.700] (II) Using input driver 'libinput' for 'HP WMI hotkeys'
+[    14.701] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 32 paused 0
+[    14.701] (**) HP WMI hotkeys: always reports core events
+[    14.701] (**) Option "Device" "/dev/input/event7"
+[    14.701] (**) Option "_source" "server/udev"
+[    14.702] (II) event7  - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[    14.702] (II) event7  - HP WMI hotkeys: device is a keyboard
+[    14.702] (II) event7  - HP WMI hotkeys: device removed
+[    14.702] (**) Option "config_info" "udev:/sys/devices/virtual/input/input13/event7"
+[    14.702] (II) XINPUT: Adding extended input device "HP WMI hotkeys" (type: KEYBOARD, id 14)
+[    14.702] (**) Option "xkb_model" "pc105"
+[    14.702] (**) Option "xkb_layout" "us"
+[    14.703] (II) event7  - HP WMI hotkeys: is tagged by udev as: Keyboard Switch
+[    14.703] (II) event7  - HP WMI hotkeys: device is a keyboard
+[    15.691] (II) modeset(0): EDID vendor "BOE", prod id 1687
+[    15.691] (II) modeset(0): Printing DDC gathered Modelines:
+[    15.691] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
+[    15.691] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
+[    38.686] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/mouse2)
+[    38.686] (II) No input driver specified, ignoring this device.
+[    38.687] (II) This device may have been added with another device file.
+[    38.710] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event20)
+[    38.710] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
+[    38.710] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
+[    38.712] (II) systemd-logind: got fd for /dev/input/event20 13:84 fd 49 paused 0
+[    38.712] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
+[    38.712] (**) Option "Device" "/dev/input/event20"
+[    38.712] (**) Option "_source" "server/udev"
+[    38.713] (II) event20 - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
+[    38.713] (II) event20 - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
+[    38.713] (II) event20 - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[    38.713] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.0001/input/input26/event20"
+[    38.713] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 15)
+[    38.713] (**) Option "xkb_model" "pc105"
+[    38.713] (**) Option "xkb_layout" "us"
+[    38.713] (WW) Option "xkb_variant" requires a string value
+[    38.713] (WW) Option "xkb_options" requires a string value
+[    38.715] (II) event20 - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
+[    38.715] (II) event20 - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
+[    38.719] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event21)
+[    38.719] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput pointer catchall"
+[    38.719] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
+[    38.726] (II) systemd-logind: got fd for /dev/input/event21 13:85 fd 50 paused 0
+[    38.726] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
+[    38.726] (**) Option "Device" "/dev/input/event21"
+[    38.726] (**) Option "_source" "server/udev"
+[    38.727] (II) event21 - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Mouse
+[    38.727] (II) event21 - MOSART Semi. 2.4G Keyboard Mouse: device is a pointer
+[    38.727] (II) event21 - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[    38.727] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input27/event21"
+[    38.727] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: MOUSE, id 16)
+[    38.728] (**) Option "AccelerationScheme" "none"
+[    38.729] (**) MOSART Semi. 2.4G Keyboard Mouse: (accel) selected scheme none/0
+[    38.729] (**) MOSART Semi. 2.4G Keyboard Mouse: (accel) acceleration factor: 2.000
+[    38.729] (**) MOSART Semi. 2.4G Keyboard Mouse: (accel) acceleration threshold: 4
+[    38.730] (II) event21 - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Mouse
+[    38.730] (II) event21 - MOSART Semi. 2.4G Keyboard Mouse: device is a pointer
+[    38.731] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event22)
+[    38.731] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    38.731] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
+[    38.733] (II) systemd-logind: got fd for /dev/input/event22 13:86 fd 51 paused 0
+[    38.733] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
+[    38.733] (**) Option "Device" "/dev/input/event22"
+[    38.733] (**) Option "_source" "server/udev"
+[    38.734] (II) event22 - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
+[    38.734] (II) event22 - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
+[    38.734] (II) event22 - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
+[    38.734] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
+[    38.734] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input28/event22"
+[    38.734] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 17)
+[    38.735] (**) Option "AccelerationScheme" "none"
+[    38.735] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
+[    38.735] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
+[    38.735] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
+[    38.736] (II) event22 - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
+[    38.736] (II) event22 - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
+[    38.737] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    38.737] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
+[    38.737] (II) systemd-logind: returning pre-existing fd for /dev/input/event22 13:86
+[    38.737] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
+[    38.737] (**) Option "Device" "/dev/input/event22"
+[    38.737] (**) Option "_source" "_driver/libinput"
+[    38.737] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
+[    38.737] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input28/event22"
+[    38.738] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 18)
+[    38.738] (**) Option "xkb_model" "pc105"
+[    38.738] (**) Option "xkb_layout" "us"
+[    38.738] (WW) Option "xkb_variant" requires a string value
+[    38.738] (WW) Option "xkb_options" requires a string value
+[    38.739] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event24)
+[    38.740] (II) No input driver specified, ignoring this device.
+[    38.740] (II) This device may have been added with another device file.
+[    38.746] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event23)
+[    38.746] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
+[    38.746] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
+[    38.747] (II) systemd-logind: got fd for /dev/input/event23 13:87 fd 52 paused 0
+[    38.747] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
+[    38.747] (**) Option "Device" "/dev/input/event23"
+[    38.747] (**) Option "_source" "server/udev"
+[    38.748] (II) event23 - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
+[    38.748] (II) event23 - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
+[    38.748] (II) event23 - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
+[    38.748] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.0002/input/input29/event23"
+[    38.748] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 19)
+[    38.748] (**) Option "xkb_model" "pc105"
+[    38.748] (**) Option "xkb_layout" "us"
+[    38.748] (WW) Option "xkb_variant" requires a string value
+[    38.748] (WW) Option "xkb_options" requires a string value
+[    38.752] (II) event23 - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
+[    38.752] (II) event23 - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard

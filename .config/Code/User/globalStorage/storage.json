@@ -5,11 +5,14 @@
             "file:///home/brian/Desktop": "__default__profile__",
             "file:///home/brian/Document": "__default__profile__",
             "file:///home/brian/Documents/html": "__default__profile__",
-            "file:///home/brian": "__default__profile__",
             "file:///home/brian/new": "__default__profile__",
             "file:///home/brian/learn": "__default__profile__",
             "file:///home/brian/goal": "__default__profile__",
-            "file:///home/brian/RP": "__default__profile__"
+            "file:///home/brian/RP": "__default__profile__",
+            "file:///home/brian/href": "__default__profile__",
+            "file:///home/brian/List": "__default__profile__",
+            "file:///home/brian": "__default__profile__",
+            "file:///home/brian/Table": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -23,19 +26,7 @@
                 "folderUri": "file:///home/brian/Desktop"
             },
             {
-                "folderUri": "file:///home/brian"
-            },
-            {
-                "folderUri": "file:///home/brian/new"
-            },
-            {
-                "folderUri": "file:///home/brian/learn"
-            },
-            {
-                "folderUri": "file:///home/brian/goal"
-            },
-            {
-                "folderUri": "file:///home/brian/RP"
+                "folderUri": "file:///home/brian/Table"
             }
         ],
         "emptyWindows": []
@@ -88,6 +79,50 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/brian/Table",
+                                        "path": "/home/brian/Table",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Table"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian",
+                                        "path": "/home/brian",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/brian"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian/List",
+                                        "path": "/home/brian/List",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/List"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brian/href",
+                                        "path": "/home/brian/href",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/href"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/brian/RP",
                                         "path": "/home/brian/RP",
                                         "scheme": "file"
@@ -132,17 +167,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/brian",
-                                        "path": "/home/brian",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/brian"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/brian/Documents/html",
                                         "path": "/home/brian/Documents/html",
                                         "scheme": "file"
@@ -160,17 +184,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Document"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/brian/Desktop",
-                                        "path": "/home/brian/Desktop",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -242,8 +255,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -607,7 +619,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -873,7 +886,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1198,8 +1212,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1798,14 +1811,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/brian/RP",
-            "backupPath": "/home/brian/.config/Code/Backups/bfbfbc13037f758e35a4a27a1daa56f4",
+            "folder": "file:///home/brian/Table",
+            "backupPath": "/home/brian/.config/Code/Backups/af8aa4a4c6c827b57c237aeb27c905a3",
             "uiState": {
-                "mode": 1,
-                "x": 121,
-                "y": 116,
+                "mode": 0,
+                "x": 53,
+                "y": 150,
                 "width": 1024,
-                "height": 711
+                "height": 488
             }
         },
         "openedWindows": []

@@ -1,0 +1,8 @@
+2023-12-03 08:42:37.408 [error] electron #438: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:42:37.421 [error] electron #439: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:42:39.429 [error] electron #440: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:42:42.589 [error] electron #441: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:48:12.153 [error] electron #442: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:48:12.162 [error] electron #443: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:48:17.621 [error] electron #444: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2023-12-03 08:48:21.138 [error] electron #445: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED

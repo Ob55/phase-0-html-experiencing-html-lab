@@ -1,0 +1,38 @@
+2023-12-04 09:20:49.641 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-04 09:20:50.402 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2023-12-04 09:20:50.415 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2023-12-04 09:20:50.416 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2023-12-04 09:20:50.417 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2023-12-04 09:20:50.418 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2023-12-04 09:20:50.420 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2023-12-04 09:20:50.420 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2023-12-04 09:20:50.421 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2023-12-04 09:20:50.421 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2023-12-04 09:20:50.422 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2023-12-04 09:20:50.427 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2023-12-04 09:20:50.479 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.480 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.481 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.482 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.482 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.483 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.484 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.485 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.485 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.486 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.487 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.487 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.488 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.489 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.489 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.493 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.493 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.494 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.494 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.495 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.495 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.495 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-04 09:20:50.570 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2023-12-04 09:20:50.571 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2023-12-04 09:20:53.202 [info] [perf] Render performance baseline is 156ms
+2023-12-04 09:26:17.966 [error] [Extension Host] grep: warning: /usr/bin/X11: recursive directory loop

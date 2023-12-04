@@ -1,0 +1,36 @@
+2023-12-04 10:35:13.847 [info] Log level: Info
+2023-12-04 10:35:13.847 [info] Validating found git in: "git"
+2023-12-04 10:35:13.847 [info] Using git "2.17.1" from "git"
+2023-12-04 10:35:13.847 [info] > git rev-parse --show-toplevel [15ms]
+2023-12-04 10:35:13.847 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-12-04 10:35:13.847 [info] Open repository: /home/brian/Table
+2023-12-04 10:35:13.860 [info] > git config --get commit.template [37ms]
+2023-12-04 10:35:13.881 [info] > git rev-parse --show-toplevel [34ms]
+2023-12-04 10:35:13.927 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2023-12-04 10:35:13.944 [info] Open repository: /home/brian/Table/Table
+2023-12-04 10:35:13.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2023-12-04 10:35:14.020 [info] > git config --get commit.template [18ms]
+2023-12-04 10:35:14.023 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-04 10:35:14.052 [info] > git status -z -uall [81ms]
+2023-12-04 10:35:14.085 [info] > git rev-parse --git-dir --git-common-dir [34ms]
+2023-12-04 10:35:14.092 [info] Open repository: /home/brian/Table/phase-0-html-tables-lab
+2023-12-04 10:35:14.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [73ms]
+2023-12-04 10:35:14.133 [info] > git status -z -uall [18ms]
+2023-12-04 10:35:14.134 [info] > git config --get commit.template [50ms]
+2023-12-04 10:35:14.144 [info] > git config --get commit.template [12ms]
+2023-12-04 10:35:14.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2023-12-04 10:35:14.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2023-12-04 10:35:14.208 [info] > git config --get commit.template [34ms]
+2023-12-04 10:35:14.220 [info] > git status -z -uall [32ms]
+2023-12-04 10:35:14.238 [info] > git status -z -uall [31ms]
+2023-12-04 10:35:14.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2023-12-04 10:35:14.308 [info] > git status -z -uall [34ms]
+2023-12-04 10:35:14.308 [info] > git config --get commit.template [44ms]
+2023-12-04 10:35:14.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2023-12-04 10:35:14.360 [info] > git status -z -uall [9ms]
+2023-12-04 10:35:14.670 [info] > git check-ignore -v -z --stdin [15ms]
+2023-12-04 10:35:14.671 [info] > git check-ignore -v -z --stdin [11ms]
+2023-12-04 10:35:14.672 [info] > git check-ignore -v -z --stdin [4ms]
+2023-12-04 10:35:15.505 [info] > git show --textconv :index.html [16ms]
+2023-12-04 10:35:15.517 [info] > git ls-files --stage -- /home/brian/Table/index.html [13ms]
+2023-12-04 10:35:15.551 [info] > git cat-file -s 37c6e81ddce387215a20e750a972ed9cd9d974b8 [4ms]

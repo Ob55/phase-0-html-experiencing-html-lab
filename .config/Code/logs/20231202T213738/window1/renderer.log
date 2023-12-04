@@ -1,0 +1,81 @@
+2023-12-02 21:37:39.685 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-02 21:37:40.755 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.codelens.npmScripts'. This property is already registered.
+2023-12-02 21:37:40.759 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.terminalOptions'. This property is already registered.
+2023-12-02 21:37:40.762 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.automaticallyTunnelRemoteServer'. This property is already registered.
+2023-12-02 21:37:40.767 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.debugByLinkOptions'. This property is already registered.
+2023-12-02 21:37:40.768 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.pickAndAttachOptions'. This property is already registered.
+2023-12-02 21:37:40.770 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachFilter'. This property is already registered.
+2023-12-02 21:37:40.772 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.autoAttachSmartPattern'. This property is already registered.
+2023-12-02 21:37:40.773 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.breakOnConditionalError'. This property is already registered.
+2023-12-02 21:37:40.774 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.unmapMissingSources'. This property is already registered.
+2023-12-02 21:37:40.775 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.defaultRuntimeExecutable'. This property is already registered.
+2023-12-02 21:37:40.776 [warning] [ms-vscode.js-debug-nightly]: Cannot register 'debug.javascript.resourceRequestOptions'. This property is already registered.
+2023-12-02 21:37:40.860 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.prettyPrint` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.869 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.toggleSkippingFile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.870 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.addCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.870 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.removeAllCustomBreakpoints` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.872 [info] [ms-vscode.js-debug-nightly]: Command `extension.pwa-node-debug.attachNodeProcess` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.872 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.npmScript` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.873 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDebuggerTerminal` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.873 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.startProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.874 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.stopProfile` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.876 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.revealPage` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.888 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.debugLink` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.889 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.createDiagnostics` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.889 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.getDiagnosticLogs` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.890 [info] [ms-vscode.js-debug-nightly]: Command `extension.node-debug.startWithStopOnEntry` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.890 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.openEdgeDevTools` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.917 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.add` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.921 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.remove` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.923 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.removeAll` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.923 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.goToCaller` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.924 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.callers.gotToTarget` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.924 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.enableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:40.925 [info] [ms-vscode.js-debug-nightly]: Command `extension.js-debug.disableSourceMapStepping` already registered by JavaScript Debugger (ms-vscode.js-debug)
+2023-12-02 21:37:41.076 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsBrowserBreakpoints`
+2023-12-02 21:37:41.080 [error] [ms-vscode.js-debug-nightly]: Cannot register multiple views with same id `jsExcludedCallers`
+2023-12-02 21:37:44.758 [info] [perf] Render performance baseline is 161ms
+2023-12-02 21:39:55.639 [error] [Extension Host] grep: warning: /usr/bin/X11: recursive directory loop
+2023-12-02 21:51:35.213 [error] Unable to find matching pair for < at char 154: Error: Unable to find matching pair for < at char 154
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22253)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21483)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at A (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at S (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.$b (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:143192)
+	at t.$S.b (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:129529)
+	at t.$S.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:128540)
+	at ie.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:52294)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:73581
+	at be.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:65353)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:127:73567)
+	at n.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10836)
+	at n.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10602)
+	at n.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9647)
+	at n.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:8762)
+	at h.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:7565)
+	at c.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:14047)
+	at h.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7918)
+	at c.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:14047)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6198)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-12-02 21:52:51.836 [error] [Extension Host] grep: warning: /usr/bin/X11: recursive directory loop
+2023-12-02 22:05:20.049 [error] [Extension Host] grep: warning: /usr/bin/X11: recursive directory loop
+2023-12-02 22:05:42.199 [error] [Extension Host] grep: warning: /usr/bin/X11: recursive directory loop
+2023-12-02 22:06:03.916 [error] Failed to execute git: Error: Failed to execute git
+	at t.$P.j (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1283743)
+	at async t.$P.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1282849)
+	at async N.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1287229)
+	at async N.logFile (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1288283)
+	at async k.eb (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1384941)
+	at async k.db (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1384633)
+	at async l.provideTimeline (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1404215)
+	at async Object.provideTimeline (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:18691)

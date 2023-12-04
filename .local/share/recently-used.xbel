@@ -205,12 +205,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/brian/Documents/index.html" added="2023-12-02T15:20:57Z" modified="2023-12-02T15:20:57Z" visited="2023-12-02T15:20:58.124252Z">
+  <bookmark href="file:///home/brian/Documents/index.html" added="2023-12-02T15:20:57Z" modified="2023-12-02T15:20:57Z" visited="2023-12-02T15:20:58Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2023-12-02T15:20:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brian/Pictures/Screenshot%20from%202023-12-04%2009-12-33.png" added="2023-12-04T06:12:33Z" modified="2023-12-04T06:12:33Z" visited="2023-12-04T06:12:33.900807Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2023-12-04T06:12:33Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

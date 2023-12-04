@@ -1,7 +1,13 @@
-2023/12/01-16:59:12.679 3c4b Reusing MANIFEST /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/01-16:59:12.680 3c4b Recovering log #4
-2023/12/01-16:59:12.681 3c4b Reusing old log /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000004.log 
-2023/12/01-16:59:12.888 3c4b Level-0 table #8: started
-2023/12/01-16:59:12.890 3c4b Level-0 table #8: 3222 bytes OK
-2023/12/01-16:59:12.894 3c4b Delete type=0 #4
-2023/12/01-16:59:12.895 3c3e Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/12/02-19:37:17.791 1977 Reusing MANIFEST /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/02-19:37:17.792 1977 Recovering log #7
+2023/12/02-19:37:17.796 1977 Reusing old log /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000007.log 
+2023/12/02-19:37:18.108 1977 Level-0 table #11: started
+2023/12/02-19:37:18.109 1977 Level-0 table #11: 5319 bytes OK
+2023/12/02-19:37:18.112 1977 Delete type=0 #7
+2023/12/02-19:37:18.113 1977 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x01\x1f\x01\x0b\x00h\x00e\x00l\x00l\x00o\x00 \x00w\x00o\x00r\x00l\x00d\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 599 : 1
+2023/12/02-19:37:18.114 1977 Compacting 1@0 + 1@1 files
+2023/12/02-19:37:18.117 1977 Generated table #12@0: 171 keys, 3435 bytes
+2023/12/02-19:37:18.117 1977 Compacted 1@0 + 1@1 files => 3435 bytes
+2023/12/02-19:37:18.120 1977 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/02-19:37:18.121 1977 Delete type=2 #11
+2023/12/02-19:37:18.121 1982 Manual compaction at level-0 from '\x00\x05\x01\x1f\x01\x0b\x00h\x00e\x00l\x00l\x00o\x00 \x00w\x00o\x00r\x00l\x00d\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 599 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,2 +1,3 @@
-2023/12/01-13:06:47.764 1ad Creating DB /home/brian/.config/google-chrome/Default/shared_proto_db/metadata since it was missing.
-2023/12/01-13:06:47.770 1ad Reusing MANIFEST /home/brian/.config/google-chrome/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/12/01-16:59:11.758 3c49 Reusing MANIFEST /home/brian/.config/google-chrome/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/12/01-16:59:11.759 3c49 Recovering log #3
+2023/12/01-16:59:11.765 3c49 Reusing old log /home/brian/.config/google-chrome/Default/shared_proto_db/metadata/000003.log 

@@ -1210,3 +1210,123 @@ X Protocol Version 11, Revision 0
 [ 49909.998] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
 [ 49909.998] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
 [ 50365.435] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: SYN_DROPPED event - some input events have been lost.
+[ 54757.034] (II) modeset(0): EDID vendor "BOE", prod id 1687
+[ 54757.034] (II) modeset(0): Printing DDC gathered Modelines:
+[ 54757.034] (II) modeset(0): Modeline "1366x768"x0.0   70.12  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (46.8 kHz eP)
+[ 54757.034] (II) modeset(0): Modeline "1366x768"x0.0   46.70  1366 1414 1446 1498  768 772 776 780 +hsync -vsync (31.2 kHz e)
+[ 55511.981] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse
+[ 55511.982] (**) Option "fd" "50"
+[ 55511.982] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[ 55511.984] (II) UnloadModule: "libinput"
+[ 55511.984] (II) systemd-logind: releasing fd for 13:70
+[ 55512.064] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Mouse
+[ 55512.064] (**) Option "fd" "53"
+[ 55512.064] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
+[ 55512.075] (II) UnloadModule: "libinput"
+[ 55512.075] (II) systemd-logind: releasing fd for 13:71
+[ 55512.109] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
+[ 55512.109] (**) Option "fd" "51"
+[ 55512.122] (II) UnloadModule: "libinput"
+[ 55512.123] (II) systemd-logind: not releasing fd for 13:72, still in use
+[ 55512.123] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse Consumer Control
+[ 55512.123] (**) Option "fd" "51"
+[ 55512.124] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
+[ 55512.129] (II) UnloadModule: "libinput"
+[ 55512.130] (II) systemd-logind: releasing fd for 13:72
+[ 55512.172] (II) config/udev: removing device MOSART Semi. 2.4G Keyboard Mouse System Control
+[ 55512.172] (**) Option "fd" "52"
+[ 55512.172] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
+[ 55512.177] (II) UnloadModule: "libinput"
+[ 55512.177] (II) systemd-logind: releasing fd for 13:73
+[ 55514.259] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/mouse1)
+[ 55514.260] (II) No input driver specified, ignoring this device.
+[ 55514.260] (II) This device may have been added with another device file.
+[ 55514.284] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event6)
+[ 55514.285] (**) MOSART Semi. 2.4G Keyboard Mouse: Applying InputClass "libinput keyboard catchall"
+[ 55514.285] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse'
+[ 55514.287] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 50 paused 0
+[ 55514.288] (**) MOSART Semi. 2.4G Keyboard Mouse: always reports core events
+[ 55514.288] (**) Option "Device" "/dev/input/event6"
+[ 55514.289] (**) Option "_source" "server/udev"
+[ 55514.289] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
+[ 55514.289] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
+[ 55514.290] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device removed
+[ 55514.290] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:062A:4C01.000D/input/input424/event6"
+[ 55514.290] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse" (type: KEYBOARD, id 9)
+[ 55514.290] (**) Option "xkb_model" "pc105"
+[ 55514.290] (**) Option "xkb_layout" "us"
+[ 55514.290] (WW) Option "xkb_variant" requires a string value
+[ 55514.290] (WW) Option "xkb_options" requires a string value
+[ 55514.293] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: is tagged by udev as: Keyboard
+[ 55514.293] (II) event6  - MOSART Semi. 2.4G Keyboard Mouse: device is a keyboard
+[ 55514.313] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Consumer Control (/dev/input/event8)
+[ 55514.313] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 55514.313] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
+[ 55514.314] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 51 paused 0
+[ 55514.314] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
+[ 55514.314] (**) Option "Device" "/dev/input/event8"
+[ 55514.314] (**) Option "_source" "server/udev"
+[ 55514.315] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
+[ 55514.315] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
+[ 55514.315] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device removed
+[ 55514.315] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: needs a virtual subdevice
+[ 55514.315] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input426/event8"
+[ 55514.315] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: MOUSE, id 10)
+[ 55514.318] (**) Option "AccelerationScheme" "none"
+[ 55514.320] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) selected scheme none/0
+[ 55514.320] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration factor: 2.000
+[ 55514.320] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: (accel) acceleration threshold: 4
+[ 55514.321] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is tagged by udev as: Keyboard
+[ 55514.321] (II) event8  - MOSART Semi. 2.4G Keyboard Mouse Consumer Control: device is a keyboard
+[ 55514.323] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: Applying InputClass "libinput keyboard catchall"
+[ 55514.323] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Consumer Control'
+[ 55514.323] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
+[ 55514.323] (**) MOSART Semi. 2.4G Keyboard Mouse Consumer Control: always reports core events
+[ 55514.323] (**) Option "Device" "/dev/input/event8"
+[ 55514.323] (**) Option "_source" "_driver/libinput"
+[ 55514.323] (II) libinput: MOSART Semi. 2.4G Keyboard Mouse Consumer Control: is a virtual subdevice
+[ 55514.323] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input426/event8"
+[ 55514.323] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Consumer Control" (type: KEYBOARD, id 11)
+[ 55514.323] (**) Option "xkb_model" "pc105"
+[ 55514.323] (**) Option "xkb_layout" "us"
+[ 55514.323] (WW) Option "xkb_variant" requires a string value
+[ 55514.323] (WW) Option "xkb_options" requires a string value
+[ 55514.325] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse System Control (/dev/input/event9)
+[ 55514.325] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: Applying InputClass "libinput keyboard catchall"
+[ 55514.325] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse System Control'
+[ 55514.328] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 52 paused 0
+[ 55514.328] (**) MOSART Semi. 2.4G Keyboard Mouse System Control: always reports core events
+[ 55514.329] (**) Option "Device" "/dev/input/event9"
+[ 55514.329] (**) Option "_source" "server/udev"
+[ 55514.330] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
+[ 55514.330] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
+[ 55514.330] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device removed
+[ 55514.330] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input427/event9"
+[ 55514.330] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse System Control" (type: KEYBOARD, id 12)
+[ 55514.330] (**) Option "xkb_model" "pc105"
+[ 55514.330] (**) Option "xkb_layout" "us"
+[ 55514.330] (WW) Option "xkb_variant" requires a string value
+[ 55514.330] (WW) Option "xkb_options" requires a string value
+[ 55514.332] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: is tagged by udev as: Keyboard
+[ 55514.332] (II) event9  - MOSART Semi. 2.4G Keyboard Mouse System Control: device is a keyboard
+[ 55514.334] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse (/dev/input/event10)
+[ 55514.334] (II) No input driver specified, ignoring this device.
+[ 55514.334] (II) This device may have been added with another device file.
+[ 55514.336] (II) config/udev: Adding input device MOSART Semi. 2.4G Keyboard Mouse Mouse (/dev/input/event7)
+[ 55514.336] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: Applying InputClass "libinput pointer catchall"
+[ 55514.336] (II) Using input driver 'libinput' for 'MOSART Semi. 2.4G Keyboard Mouse Mouse'
+[ 55514.338] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 53 paused 0
+[ 55514.338] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: always reports core events
+[ 55514.338] (**) Option "Device" "/dev/input/event7"
+[ 55514.338] (**) Option "_source" "server/udev"
+[ 55514.341] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
+[ 55514.341] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer
+[ 55514.341] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device removed
+[ 55514.341] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:062A:4C01.000E/input/input425/event7"
+[ 55514.341] (II) XINPUT: Adding extended input device "MOSART Semi. 2.4G Keyboard Mouse Mouse" (type: MOUSE, id 19)
+[ 55514.342] (**) Option "AccelerationScheme" "none"
+[ 55514.344] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) selected scheme none/0
+[ 55514.344] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration factor: 2.000
+[ 55514.344] (**) MOSART Semi. 2.4G Keyboard Mouse Mouse: (accel) acceleration threshold: 4
+[ 55514.344] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: is tagged by udev as: Mouse
+[ 55514.345] (II) event7  - MOSART Semi. 2.4G Keyboard Mouse Mouse: device is a pointer

@@ -310,3 +310,156 @@ clear
 git init
 git status
 git push
+git init
+git add README.md
+git add New-Html-document
+git clone https://github.com/Ob55/New-Html-document
+git init
+git clone https://github.com/Ob55/New-Html-document
+git clone git@github.com:Ob55/phase-0-html-document-structure-lab.git
+clear
+git clone https://github.com/Ob55/phase-0-html-document-structure-lab
+clear
+git init
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+git clone https://github.com/Ob55/phase-0-html-document-structure-lab
+git remote add origin git@github.com:Ob55/New-Html-document.git
+git branch -M main
+clear
+cd
+mkdir html
+mkdir new
+cd new
+touch index.html
+code .
+git init
+git clone https://github.com/learn-co-curriculum/phase-0-html-document-structure-lab/fork
+git clone git@github.com:Ob55/New-Html-document.git
+git clone https://github.com/Ob55/New-Html-document
+draggonne<55>
+git clone https://github.com/Ob55/New-Html-document
+git clone https://github.com/Ob55/New-Html-document.git
+cd new
+git status
+cd index.html
+git init
+git add .
+git remote add origin https://github.com/Ob55/New-Html-document.git
+git push
+git push --set-upstream origin master
+git push
+yes
+cd
+mkdir learning goal
+cd learning goal/
+cd learning goal
+clear
+cd
+mkdir learn
+cd learn
+touch index.html
+code .
+git clone https://github.com/Ob55/phase-0-html-tag-lab
+git init
+git clone https://github.com/Ob55/phase-0-html-tag-lab
+git add .
+git rm --cached phase-0-html-tag-lab
+git push
+clear
+git init
+git clone https://github.com/Ob55/H1-tag
+git clone git@github.com:Ob55/phase-0-html-tag-lab.git
+git commit -m "Completed assignment"
+git push
+clear
+git init
+git add .
+git remote add origin https://github.com/Ob55/H1-tag
+git branch -M main
+git clone git@github.com:Ob55/H1-tag.git
+git push
+git push --set-upstream origin main
+clear
+git init
+git clone https://github.com/Ob55/phase-0-html-tag-lab
+git remote add origin git@github.com:Ob55/phase-0-html-tag-lab.git
+git push
+git clone https://github.com/Ob55/phase-0-html-tag-lab
+git clone phase-0-html-tag-lab
+clear
+git init
+git clone git@github.com:Ob55/brand.git
+git clone https://github.com/Ob55/brand
+git push
+clear
+git init
+git add .
+git commit -m git@github.com:Ob55/phase-0-html-tag-lab.git
+git push -u origin main
+git clone git@github.com:Ob55/phase-0-html-tag-lab.git
+git push
+git push --set-upstream origin main
+git push
+git init
+git add .
+git push
+git clone git@github.com:Ob55/phase-0-html-tag-lab.git
+git git remote add origin git@github.com:Ob55/H1-tag.git
+git push 
+git push
+git push --set-upstream origin master
+git branch -M main
+clear
+git push 
+git add .
+git add index.html
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Ob55/H1-tag.git
+git push -u origin main
+git clone git@github.com:Ob55/H1-tag.git
+git clone git@github.com:Ob55/phase-0-html-tag-lab.git
+cd phase-0-html-tag-lab
+git pull origin master
+git push
+git status
+cd
+clear
+git init
+git add
+git add .
+cd 
+cd index.html
+cd goal
+touch index.html
+git init
+git clone git@github.com:Ob55/phase-0-html-tag-lab.git
+git clone https://github.com/Ob55/phase-0-html-tag-lab
+code .
+clear
+cd
+mkdir RP
+cd RP
+touch new.html
+git init
+git add .
+git clone https://github.com/Ob55/H1-tag
+code .
+git clone https://github.com/Ob55/H1-tag
+git push
+git remote add origin git@github.com:Ob55/H1-tag.git
+git push git@github.com:Ob55/H1-tag.git
+git push
+git remote add origin git@github.com:Ob55/H1-tag.git
+git branch -M main
+git push -u origin main
+git commit -m "first commit:
+
+clear
+
+
+

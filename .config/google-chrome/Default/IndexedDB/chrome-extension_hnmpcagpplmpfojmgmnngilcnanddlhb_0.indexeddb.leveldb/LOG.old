@@ -1,6 +1,7 @@
-2023/12/01-13:08:05.944 19f Creating DB /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb since it was missing.
-2023/12/01-13:08:05.948 19f Reusing MANIFEST /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/01-13:08:06.090 19f Level-0 table #5: started
-2023/12/01-13:08:06.091 19f Level-0 table #5: 2240 bytes OK
-2023/12/01-13:08:06.092 19f Delete type=0 #3
-2023/12/01-13:08:06.092 19f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/12/01-16:59:12.679 3c4b Reusing MANIFEST /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/01-16:59:12.680 3c4b Recovering log #4
+2023/12/01-16:59:12.681 3c4b Reusing old log /home/brian/.config/google-chrome/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000004.log 
+2023/12/01-16:59:12.888 3c4b Level-0 table #8: started
+2023/12/01-16:59:12.890 3c4b Level-0 table #8: 3222 bytes OK
+2023/12/01-16:59:12.894 3c4b Delete type=0 #4
+2023/12/01-16:59:12.895 3c3e Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

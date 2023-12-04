@@ -7,29 +7,29 @@
     <application id="libreoffice-calc.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1701317764"/>
     <application id="gnome-wifi-panel.desktop" open-window-count="0" score="0" last-seen="0"/>
     <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="0.001953125" last-seen="1701321162"/>
-    <application id="code.desktop" open-window-count="0" score="649.1865234375" last-seen="1701531969"/>
+    <application id="code.desktop" open-window-count="1" score="894.1865234375" last-seen="1701539060"/>
     <application id="file-roller.desktop" open-window-count="0" score="0" last-seen="1701321193"/>
     <application id="update-manager.desktop" open-window-count="0" score="0.00018310546875" last-seen="1701318327"/>
     <application id="org.gnome.Software.desktop" open-window-count="0" score="1.00030517578125" last-seen="1701414059"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="0.0078125" last-seen="1701329103"/>
     <application id="software-properties-gtk.desktop" open-window-count="0" score="0.0001220703125" last-seen="1701319134"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="0" score="571.4146728515625" last-seen="1701531843"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="683.4146728515625" last-seen="1701539162"/>
     <application id="seahorse.desktop" open-window-count="0" score="0.0068359375" last-seen="1701320804"/>
     <application id="org.gnome.Totem.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1701318555"/>
     <application id="usb-creator-gtk.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1701318270"/>
     <application id="libreoffice-writer.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1701317852"/>
-    <application id="gnome-control-center.desktop" open-window-count="0" score="18907.157592773438" last-seen="1701441464"/>
-    <application id="yelp.desktop" open-window-count="0" score="5.00067138671875" last-seen="1701340500"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="18911.157592773438" last-seen="1701533722"/>
+    <application id="yelp.desktop" open-window-count="0" score="5.00067138671875" last-seen="1701536367"/>
     <application id="libreoffice-startcenter.desktop" open-window-count="0" score="6.103515625e-05" last-seen="1701317774"/>
     <application id="gnome-software-local-file.desktop" open-window-count="0" score="0" last-seen="0"/>
     <application id="org.gnome.Calendar.desktop" open-window-count="0" score="0.0078125" last-seen="1701338024"/>
     <application id="firefox.desktop" open-window-count="0" score="14.091796875" last-seen="1701414377"/>
     <application id="gnome-session-properties.desktop" open-window-count="0" score="0.0084228515625" last-seen="1701320330"/>
-    <application id="brave-browser.desktop" open-window-count="1" score="13138.302734375" last-seen="1701531968"/>
+    <application id="brave-browser.desktop" open-window-count="1" score="13591.302734375" last-seen="1701539113"/>
     <application id="eog.desktop" open-window-count="0" score="0" last-seen="1701338854"/>
-    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="5.5770263671875" last-seen="1701529705"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="6.5770263671875" last-seen="1701538234"/>
     <application id="gnome-system-monitor_gnome-system-monitor.desktop" open-window-count="0" score="0" last-seen="1701324784"/>
     <application id="rhythmbox.desktop" open-window-count="0" score="9.1552734375e-05" last-seen="1701329754"/>
-    <application id="google-chrome.desktop" open-window-count="0" score="27" last-seen="1701530990"/>
+    <application id="google-chrome.desktop" open-window-count="0" score="30" last-seen="1701538140"/>
   </context>
 </application-state>
